@@ -7,6 +7,10 @@ public class Player : MonoBehaviour
     public static Player Instance;
     public Rigidbody2D rgby;
     
+    void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         rgby = GetComponent<Rigidbody2D>();

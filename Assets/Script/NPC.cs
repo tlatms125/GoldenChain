@@ -2,18 +2,52 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC : MonoBehaviour
+public class NPC : MonoBehaviour, IInteractable
 {
     //NPC를 설정하고 플레이어가 NPC 근처에 가서 F키를 누르면 상호작용하기라는 로그를 출력해주세요.
-    
+    [SerializeField] bool nearPlayer;
+    [SerializeField] GameObject interactKeyCanvas;
+
     void Start()
     {
-        
+       // Player.Instance
+       interactKeyCanvas.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            if(nearPlayer)
+            {
+                //상호작용
+                Interact();
+                interactKeyCanvas.gameObject.SetActive(false);
+            }
+        }
+    }
+   private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            nearPlayer = true;
+            interactKeyCanvas.gameObject.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            nearPlayer = false;
+            interactKeyCanvas.gameObject.SetActive(false);
+        }
+    }
+
+    public void Interact()
+    {
+        //NPC와 상호작용 상세내용
+        //대화 문구
     }
 }

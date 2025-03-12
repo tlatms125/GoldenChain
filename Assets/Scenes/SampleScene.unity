@@ -132,12 +132,12 @@ GameObject:
   - component: {fileID: 66663832}
   - component: {fileID: 66663831}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: InteractionCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &66663830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1372,8 +1372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cebef9d88b5deb459aad4a94d806611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearPlayer: 0
-  interactKeyCanvas: {fileID: 0}
+  IsPlayerInRange: 0
+  interactionUI: {fileID: 66663829}
 --- !u!4 &2005441358
 Transform:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 2105780660}
   - component: {fileID: 2105780659}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

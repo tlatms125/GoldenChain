@@ -4,6 +4,6 @@ public class Item : MonoBehaviour, IInteractable
 {
     public void Interact()
     {
-        //¾ÆÀÌÅÛ°ú »óÈ£ÀÛ¿ë 
+        //ì•„ì´í…œê³¼ ìƒí˜¸ì‘ìš© 
     }
 }

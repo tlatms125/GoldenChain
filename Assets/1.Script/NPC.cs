@@ -4,35 +4,34 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour, IInteractable
 {
-    //NPC¸¦ ¼³Á¤ÇÏ°í ÇÃ·¹ÀÌ¾î°¡ NPC ±ÙÃ³¿¡ °¡¼­ FÅ°¸¦ ´©¸£¸é »óÈ£ÀÛ¿ëÇÏ±â¶ó´Â ·Î±×¸¦ Ãâ·ÂÇØÁÖ¼¼¿ä.
-    [SerializeField] bool nearPlayer;
-    [SerializeField] GameObject interactKeyCanvas;
+    //NPCë¥¼ ì„¤ì •í•˜ê³  í”Œë ˆì´ì–´ê°€ NPC ê·¼ì²˜ì— ê°€ì„œ Fí‚¤ë¥¼ ëˆ„ë¥´ë©´ ìƒí˜¸ì‘ìš©í•˜ê¸°ë¼ëŠ” ë¡œê·¸ë¥¼ ì¶œë ¥í•´ì£¼ì„¸ìš”.
+    [SerializeField] bool IsPlayerInRange;
+    [SerializeField] GameObject interactionUI;
 
     void Start()
     {
        // Player.Instance
-       interactKeyCanvas.gameObject.SetActive(false);
+       interactionUI.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F))
+        if(IsPlayerInRange && Input.GetKeyDown(KeyCode.F))
         {
-            if(nearPlayer)
-            {
-                //»óÈ£ÀÛ¿ë
+          
+                //ìƒí˜¸ì‘ìš©
                 Interact();
-                interactKeyCanvas.gameObject.SetActive(false);
-            }
+                interactionUI.gameObject.SetActive(false);
+            
         }
     }
    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            nearPlayer = true;
-            interactKeyCanvas.gameObject.SetActive(true);
+            IsPlayerInRange = true;
+            interactionUI.gameObject.SetActive(true);
         }
     }
 
@@ -40,14 +39,15 @@ public class NPC : MonoBehaviour, IInteractable
     {
         if (collision.CompareTag("Player"))
         {
-            nearPlayer = false;
-            interactKeyCanvas.gameObject.SetActive(false);
+            IsPlayerInRange = false;
+            interactionUI.gameObject.SetActive(false);
         }
     }
 
     public void Interact()
     {
-        //NPC¿Í »óÈ£ÀÛ¿ë »ó¼¼³»¿ë
-        //´ëÈ­ ¹®±¸
+        //NPCì™€ ìƒí˜¸ì‘ìš© ìƒì„¸ë‚´ìš©
+        //ëŒ€í™” ë¬¸êµ¬
+        Debug.Log("NPCì™€ ìƒí˜¸ì‘ìš©!");
     }
 }

@@ -7,6 +7,8 @@ public class NPC : MonoBehaviour, IInteractable
     //NPC를 설정하고 플레이어가 NPC 근처에 가서 F키를 누르면 상호작용하기라는 로그를 출력해주세요.
     [SerializeField] bool IsPlayerInRange;
     [SerializeField] GameObject interactionUI;
+    [SerializeField] CharacterName  characterName;
+    public Dialoque dialoque;
 
     void Start()
     {
@@ -49,5 +51,6 @@ public class NPC : MonoBehaviour, IInteractable
         //NPC와 상호작용 상세내용
         //대화 문구
         Debug.Log("NPC와 상호작용!");
+        DialogueCanvas.Instance.StartDialogue(dialoque);
     }
 }

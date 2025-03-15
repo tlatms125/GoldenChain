@@ -41,3 +41,27 @@ public class Player : MonoBehaviour
     
     
 }
+public static class PlayerData
+{
+    // 예시: 퀘스트 완료 여부 체크
+    private static bool hasCompletedQuestFarmersQuest = false;
+
+    // 퀘스트 완료 여부 반환
+    public static bool HasCompletedQuest(string questName)
+    {
+        if (questName == "FarmersQuest")
+        {
+            return hasCompletedQuestFarmersQuest;
+        }
+        return false;
+    }
+
+    // 퀘스트를 완료했다는 정보를 설정
+    public static void CompleteQuest(string questName)
+    {
+        if (questName == "FarmersQuest")
+        {
+            hasCompletedQuestFarmersQuest = true;
+        }
+    }
+}

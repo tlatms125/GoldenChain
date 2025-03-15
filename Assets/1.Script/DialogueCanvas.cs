@@ -27,7 +27,7 @@ public class DialogueCanvas : MonoBehaviour
     {
         this.dialoque = dialoque;
         idx = 0;
-        //ÇÔ¼ö È£Ãâ½Ã ´ëÈ­½ÃÀÛ
+        //ï¿½Ô¼ï¿½ È£ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½
         gameObject.SetActive(true);
         isTyping = false;
         UpdateDialogue();
@@ -64,7 +64,7 @@ public class DialogueCanvas : MonoBehaviour
             {
                 idx++;
             UpdateDialogue();
-            //Å¸ÀÚ °°ÀÌ ½áÁö´Â°Í
+            //Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â°ï¿½
             }
             else
             {

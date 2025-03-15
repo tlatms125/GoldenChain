@@ -1,14 +1,21 @@
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class CharacterManager : MonoBehaviour
+public class CharacterManager : MonoSingleton<CharacterManager>
 {
-    //½Ì±ÛÅæ
+    //ï¿½Ì±ï¿½ï¿½ï¿½
     public CharacterData[] characterDatas;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+   public CharacterData GetCharacterData(CharacterName characterName)
     {
-        
+        for (int i = 0; i < characterDatas.Length; i++)
+        {
+            if (characterDatas[i].characterName == characterName) 
+            {
+                return characterDatas[i]; // 
+            }
+        }
+        return null; 
     }
 
     // Update is called once per frame

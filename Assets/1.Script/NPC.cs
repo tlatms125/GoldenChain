@@ -8,7 +8,8 @@ public class NPC : MonoBehaviour, IInteractable
     [SerializeField] bool IsPlayerInRange;
     [SerializeField] GameObject interactionUI;
     [SerializeField] CharacterName  characterName;
-    public Dialoque dialoque;
+    public Dialogue dialoque;
+    public DialogueCondition[] dialogueConditions;
 
     void Start()
     {
@@ -48,9 +49,20 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        //조건에 만족하는지 검사
         //NPC와 상호작용 상세내용
         //대화 문구
         Debug.Log("NPC와 상호작용!");
-        DialogueCanvas.Instance.StartDialogue(dialoque);
+        for(int i = 0; i<dialogueConditions.Length; i++)
+        {
+            bool result =dialogueConditions[i].CheckCondition();
+            if(result)
+            {
+                DialogueCanvas.Instance.StartDialogue(dialogueConditions[i].dialogue);
+            }
+            
+
+        } 
+       // DialogueCanvas.Instance.StartDialogue(dialoque);
     }
 }

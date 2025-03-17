@@ -30,9 +30,12 @@ public class CharacterData
     public CharacterName characterName;
     [SerializeField] private string name;
 
-    public string Name
+    public string Name //속성 : 변수와 함수를 결합한 형태
     {
-        get { return name; }
+        get
+        {
+            return name;
+        }
 
     }
 }

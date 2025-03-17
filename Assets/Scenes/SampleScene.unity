@@ -1578,6 +1578,11 @@ MonoBehaviour:
   interactionUI: {fileID: 66663829}
   characterName: 0
   dialoque: {fileID: 11400000, guid: 7992de3adaee15949b0e03161c5317ba, type: 2}
+  dialogueConditions:
+  - dialogue: {fileID: 11400000, guid: 12aa264aa1b86c94780269d88afbbc51, type: 2}
+    conditions: []
+  - dialogue: {fileID: 11400000, guid: 7992de3adaee15949b0e03161c5317ba, type: 2}
+    conditions: []
 --- !u!4 &2005441358
 Transform:
   m_ObjectHideFlags: 0

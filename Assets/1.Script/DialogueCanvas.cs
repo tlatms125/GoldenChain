@@ -8,7 +8,7 @@ public class DialogueCanvas : MonoBehaviour
 {
     public TMP_Text nameText;
     public TMP_Text dialogueText;
-    public Dialoque dialoque;
+    public Dialogue dialoque;
     bool isTyping;
     private static DialogueCanvas instance;
     public static DialogueCanvas Instance
@@ -23,11 +23,11 @@ public class DialogueCanvas : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     int idx;
-    public void StartDialogue(Dialoque dialoque)
+    public void StartDialogue(Dialogue dialoque)
     {
         this.dialoque = dialoque;
         idx = 0;
-        //�Լ� ȣ��� ��ȭ����
+        
         gameObject.SetActive(true);
         isTyping = false;
         UpdateDialogue();
@@ -64,7 +64,7 @@ public class DialogueCanvas : MonoBehaviour
             {
                 idx++;
             UpdateDialogue();
-            //Ÿ�� ���� �����°�
+            
             }
             else
             {

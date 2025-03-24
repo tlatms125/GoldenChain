@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewDialogue", menuName = "Dialogue System/Dialogue")]
 public class Dialogue : ScriptableObject
 {
-    public DialoqueLine[] dialoqueLines; // ´ëÈ­³»¿ë ¹è¿­
+    public DialoqueLine[] dialoqueLines; // ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­
 
     public DialoqueLine GetNextLine(string conditionKey)
     {
@@ -11,7 +11,7 @@ public class Dialogue : ScriptableObject
         {
             if(line.conditionKey == conditionKey)
             {
-                return line; //Á¶°Ç¿¡ ¸Â´Â ´ëÈ­¶óÀÎ ¹ÝÈ¯
+                return line; //ï¿½ï¿½ï¿½Ç¿ï¿½ ï¿½Â´ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
             }
         }
         return null;
@@ -22,8 +22,8 @@ public class DialoqueLine
 {
     public CharacterName characterName;
     public string dialoqueText;
-    public string conditionKey; //´ëÈ­°¡ ³ª¿Ã Á¶°ÇÀ» Ã¼Å©ÇÒ Å°
-    public bool conditionMet; // Á¶°ÇÀ» ¸¸Á·Çß´ÂÁö Ã¼Å©ÇÏ´Â ÇÃ·¡±×
+    public string conditionKey; //ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å©ï¿½ï¿½ Å°
+    public bool conditionMet; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß´ï¿½ï¿½ï¿½ Ã¼Å©ï¿½Ï´ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½
 
 }
 [System.Serializable]
@@ -33,8 +33,8 @@ public class DialogueCondition
     public Condition[] conditions;
     public bool CheckCondition()
     {
-        //ConditionsÀÇ ¸ðµç Á¶°ÇÀÌ ÂüÀÎ°æ¿ì Ture
-        //ÇÏ³ª¶óµµ ºÒ¸¸Á·ÀÌ¸é false
+        //Conditionsï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î°ï¿½ï¿½ Ture
+        //ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ false
         for(int i = 0; i < conditions.Length ; i++)
         {
             if(!conditions[i].CheckCondition())
@@ -55,17 +55,22 @@ public class Condition
     public CompareType compareType;
     public bool CheckCondition()
     {
-        if(conditionType == ConditionType.HasItem)
+        if(conditionType == ConditionType.ItemOwned)
         {
-            //À¯Àúµ¥ÀÌÅÍ ¾ÆÀÌÅÛÅ° °®°íÀÖ´ÂÁö ÆÇ´Ü
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å° ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½
         }
-        else if(conditionType == ConditionType.FirstDialogue)
+        else if(conditionType == ConditionType.DialogueCount)
         {
-            //À¯Àúµ¥ÀÌÅÍ ¿£ÇÇ¾¾¸¶´Ù ´ëÈ­ ¸î¹øÇß´ÂÁö ÆÇ´Ü
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ß´ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½
+            if(compareType == CompareType.Equals)
+           {
+            //ì²«ëŒ€í™”
+            //if(User.Instance.UserData.DialogueCount == 0) ì–´ë–¤ ì—”í”¼ì”¨ì™€ì˜ ëŒ€í™”ì¸ì§€ êµ¬ë¶„ ì–´ë–»ê²Œ í• ê¹Œ?
+           }
         }
-         else if(conditionType == ConditionType.nothasItem)
+         else if(conditionType == ConditionType.ItemNotOwned)
         {
-            //À¯Àúµ¥ÀÌÅÍ ¾ÆÀÌÅÛÅ° °®°íÀÖ´ÂÁö ÆÇ´Ü
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å° ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½
         }
          else if(conditionType == ConditionType.Attractive)
         {
@@ -88,13 +93,19 @@ public class Condition
 }
 public enum ConditionType
 {
-    HasItem,
-    FirstDialogue,
-    nothasItem,
-    Attractive,
+    ItemOwned,        //  ì•„ì´í…œì„ ì†Œì§€í•˜ê³  ìžˆëŠ” ê²½ìš° 
+    ItemNotOwned,     //  ì•„ì´í…œì„ ì†Œì§€í•˜ì§€ ì•Šì€ ê²½ìš° 
+    DialogueCount,    // ëŒ€í™” íšŸìˆ˜ì— ë”°ë¥¸ ë¶„ê¸° 
+    Attractive,       // ë§¤ë ¥ë„ (ì™¸í˜•ì  ë§¤ë ¥ ë“±)
+    Affection,        // ì¹œë°€ë„ (ê´€ê³„ì˜ ì¹œë°€í•¨)
+    PlayerChoice,     //  í”Œë ˆì´ì–´ì˜ ì„ íƒì— ë”°ë¥¸ ë¶„ê¸°
+    QuestCompleted,   //  íŠ¹ì • í€˜ìŠ¤íŠ¸ ì™„ë£Œ ì—¬ë¶€
+    TimeOfDay,        //  ë‚®/ë°¤ ì—¬ë¶€
+    Location,         //  íŠ¹ì • ìž¥ì†Œì— ìžˆì„ ë•Œ
+    ReputationHigh,   //  í”Œë ˆì´ì–´ ëª…ì„±ì´ ë†’ì„ ë•Œ
+    ReputationLow ,    //  í”Œë ˆì´ì–´ ëª…ì„±ì´ ë‚®ì„ ë•Œ
+    AnyEndingSeen      //ì—”ë”©ì„ í•œë²ˆì´ë¼ë„ í•˜ë‚˜ì´ìƒ ë´¤ì„ë•Œ
     
-    //¸Å·Âµµ
-    //Ä£¹Ðµµ? ¸í¼º? ¸îÀÌ»ó
 }
 public enum CompareType
 {

@@ -1,10 +1,15 @@
 using UnityEngine;
 
-public class NormalDialogueCanvas : MonoBehaviour
+public class NormalDialogueCanvas : DialogueCanvas
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+       public ov void StartDialogue(Dialogue dialoque)
     {
+        this.dialoque = dialoque;
+        idx = 0;
+        
+        gameObject.SetActive(true);
+        isTyping = false;
+        UpdateDialogue();
         
     }
 

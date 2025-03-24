@@ -6,40 +6,27 @@ using System;
 using UnityEngine.TextCore.Text;
 public class DialogueCanvas : MonoBehaviour
 {
+    public DialogueType dialogueType;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
-    public Dialogue dialoque;
     bool isTyping;
-    private static DialogueCanvas instance;
-    public static DialogueCanvas Instance
-    {
-        get
-        {
-            if (instance == null)
-                instance = FindFirstObjectByType<DialogueCanvas>(FindObjectsInactive.Include);
-            return instance;
-        }
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     int idx;
-    public void StartDialogue(Dialogue dialoque)
+    public virtual void StartDialogue(Dialogue dialoque)
     {
-        this.dialoque = dialoque;
-        idx = 0;
-        
+     
+       
         gameObject.SetActive(true);
         isTyping = false;
-        UpdateDialogue();
+        
         
     }
     public void UpdateDialogue()
     {
     //     CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialogueLines[idx].characterName);
-    //     nameText.text = characterData.Name;
-    //     isTyping = true;
-    //     //dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString() ;
-    //     StartCoroutine(CoDialogue(dialoque.dialogueLines[idx].dialoqueText));
+         nameText.text = characterData.Name;
+         isTyping = true;
+         dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString() ;
+        StartCoroutine(CoDialogue(dialoque.dialogueLines[idx].dialoqueText));
     }
     IEnumerator CoDialogue(string script )
     {
@@ -74,6 +61,8 @@ public class DialogueCanvas : MonoBehaviour
             }
         }
     }
+
+    
     
 }
 

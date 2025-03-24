@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: NormalDialogue_First
   m_EditorClassIdentifier: 
   dialogueType: 0
-  dialoqueLines: []
+  dialoqueLines:
+  - characterName: 0
+    dialoqueText: hi
+    conditionKey: 
+    conditionMet: 0
+  - characterName: 1
+    dialoqueText: hi
+    conditionKey: 
+    conditionMet: 0
+  nextDialogue: {fileID: 0}

@@ -1,17 +1,18 @@
 using UnityEngine;
 using TMPro;
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoSingleton<DialogueManager>
 {
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public DialogueCanvas[] dialogueCanvases;
+    public DialogueCanvas GetDialogueCanvas(DialogueType type)
     {
-        
+        for(int i = 0; i <= dialogueCanvases.Length; i++)
+        {
+            if(dialogueCanvases[i].dialogueType == type)
+            {
+                return dialogueCanvases[i];
+            }
+        } 
+        return null;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

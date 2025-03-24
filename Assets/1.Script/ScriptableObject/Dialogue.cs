@@ -1,21 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewDialogue", menuName = "Dialogue System/Dialogue")]
-public class Dialogue : ScriptableObject
+//[CreateAssetMenu(fileName = "NewDialogue", menuName = "Dialogue System/Dialogue")]
+public abstract class Dialogue : ScriptableObject
 {
-    public DialoqueLine[] dialoqueLines; // 대화내용 배열
-
-    public DialoqueLine GetNextLine(string conditionKey)
-    {
-        foreach(var line in dialoqueLines)
-        {
-            if(line.conditionKey == conditionKey)
-            {
-                return line; //조건에 맞는 대화라인 반환
-            }
-        }
-        return null;
-    }
+    public DialogueType dialogueType;
+   
+}
+public enum DialogueType
+{
+    Normal,
+    Choice
 }
 [System.Serializable]
 public class DialoqueLine

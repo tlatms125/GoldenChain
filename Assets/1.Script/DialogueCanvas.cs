@@ -35,11 +35,11 @@ public class DialogueCanvas : MonoBehaviour
     }
     public void UpdateDialogue()
     {
-        CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialoqueLines[idx].characterName);
-        nameText.text = characterData.Name;
-        isTyping = true;
-        //dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString() ;
-        StartCoroutine(CoDialogue(dialoque.dialoqueLines[idx].dialoqueText));
+    //     CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialogueLines[idx].characterName);
+    //     nameText.text = characterData.Name;
+    //     isTyping = true;
+    //     //dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString() ;
+    //     StartCoroutine(CoDialogue(dialoque.dialogueLines[idx].dialoqueText));
     }
     IEnumerator CoDialogue(string script )
     {
@@ -69,7 +69,7 @@ public class DialogueCanvas : MonoBehaviour
             else
             {
                 StopAllCoroutines();
-                dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString();
+               // dialogueText.text =dialoque.dialogueLines[idx].dialoqueText.ToString();
                 isTyping = false;
             }
         }

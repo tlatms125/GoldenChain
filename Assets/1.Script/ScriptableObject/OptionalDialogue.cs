@@ -1,18 +1,18 @@
 using UnityEngine;
-[CreateAssetMenu(fileName = "ChoiceDialogue", menuName = "Dialogue System/ChoiceDialogue")]
+[CreateAssetMenu(fileName = "OptionalDialogue", menuName = "Dialogue System/OptionalDialogue")]
 public class ChoiceDialogue : Dialogue
 {
    public ChoiceDialogue()
    {
-        dialogueType = DialogueType.Choice;
+        dialogueType = DialogueType.Optional;
    }
      public CharacterName characterName;
     public string dialogueText;
-    public ChoiceOption[] choiceOptions;
+    public DialogueOption[] choiceOptions;
 }
 
 [System.Serializable]
-public class ChoiceOption
+public class DialogueOption
 {
     public string dialogueText;
     public Dialogue nextDialogue;

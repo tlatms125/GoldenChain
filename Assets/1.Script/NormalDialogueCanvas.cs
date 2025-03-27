@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class NormalDialogueCanvas : DialogueCanvas
 {
-       public ov void StartDialogue(Dialogue dialoque)
+    
+       public override void StartDialogue(Dialogue dialoque)
     {
-        this.dialoque = dialoque;
-        idx = 0;
+        // this.dialoque = dialoque;
+        // idx = 0;
         
-        gameObject.SetActive(true);
-        isTyping = false;
-        UpdateDialogue();
+        // gameObject.SetActive(true);
+        // isTyping = false;
+        // UpdateDialogue();
         
     }
 

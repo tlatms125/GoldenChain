@@ -9,7 +9,7 @@ public abstract class Dialogue : ScriptableObject
 public enum DialogueType
 {
     Normal,
-    Choice
+    Optional
 }
 [System.Serializable]
 public class DialoqueLine

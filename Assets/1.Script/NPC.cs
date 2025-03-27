@@ -58,7 +58,7 @@ public class NPC : MonoBehaviour, IInteractable
             bool result =dialogueConditions[i].CheckCondition();
             if(result)
             {
-                DialogueCanvas.Instance.StartDialogue(dialogueConditions[i].dialogue);
+              //  DialogueCanvas.Instance.StartDialogue(dialogueConditions[i].dialogue);
             }
             
 

@@ -4,12 +4,14 @@ using UnityEngine;
 public abstract class Dialogue : ScriptableObject
 {
     public DialogueType dialogueType;
+    string title;
    
 }
 public enum DialogueType
 {
     Normal,
-    Optional
+    Optional,
+    InputField
 }
 
 [System.Serializable]

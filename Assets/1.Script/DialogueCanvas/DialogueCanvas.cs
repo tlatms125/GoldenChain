@@ -16,7 +16,7 @@ public class DialogueCanvas : MonoBehaviour
         gameObject.SetActive(true);
         isTyping = false;
     }
-    public void UpdateDialogue()
+    public virtual void UpdateDialogue()
     {
         //  CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialogueLines[idx].characterName);
         //  nameText.text = characterData.Name;

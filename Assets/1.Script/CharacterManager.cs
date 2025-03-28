@@ -42,5 +42,5 @@ public class CharacterData
 public enum CharacterName
 {
     Player,
-    Npc1,
+    immigrationOfficer, //입국심사관
 }

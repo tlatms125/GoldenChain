@@ -1362,29 +1362,14 @@ GameObject:
   - component: {fileID: 1132901154}
   - component: {fileID: 1132901153}
   - component: {fileID: 1132901152}
-  - component: {fileID: 1132901151}
+  - component: {fileID: 1132901156}
   m_Layer: 5
-  m_Name: ChoiceDialogueCanvas
+  m_Name: OptionalDialogueCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1132901151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132901150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e26ed901c0416448acf5f030eea4bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: {fileID: 1993039693}
-  dialogueText: {fileID: 340567744}
-  dialoque: {fileID: 0}
 --- !u!114 &1132901152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1468,6 +1453,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1132901156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132901150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4c9ff50f3060c44958548b42de3819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1189384972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,6 +1604,7 @@ GameObject:
   - component: {fileID: 1522306449}
   - component: {fileID: 1522306448}
   - component: {fileID: 1522306452}
+  - component: {fileID: 1522306453}
   m_Layer: 5
   m_Name: NormalDialogueCanvas
   m_TagString: Untagged
@@ -1709,9 +1707,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e26ed901c0416448acf5f030eea4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueType: 0
   nameText: {fileID: 808665786}
   dialogueText: {fileID: 1852615079}
-  dialoque: {fileID: 0}
+--- !u!114 &1522306453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522306447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18e665769422d74fb4e7d6cfc9d513d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
 --- !u!1 &1560556752
 GameObject:
   m_ObjectHideFlags: 0

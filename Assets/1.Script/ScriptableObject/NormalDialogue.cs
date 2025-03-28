@@ -2,24 +2,34 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NormalDialogue", menuName = "Dialogue System/NormalDialogue")]
 public class NormalDialogue : Dialogue
 {
-    public DialoqueLine[] dialoqueLines; // ��ȭ���� �迭
-    public Dialogue nextDialogue;
+    public NormalDialogue()
+    {
+        dialogueType = DialogueType.Normal;
+
+    }
+    public DialoqueLine[] dialoqueLines; // 대화내용 배열
+    public Dialogue nextDialogue; //현재 대화가 끝나면 시작될 대화, 없으면 대화 종료
+
     public DialoqueLine GetNextLine(string conditionKey)
     {
         foreach(var line in dialoqueLines)
         {
             if(line.conditionKey == conditionKey)
             {
-                return line; //���ǿ� �´� ��ȭ���� ��ȯ
+                return line; //조건에 맞는 대화라인 반환
             }
         }
         return null;
     }
-    public NormalDialogue()
-    {
-        dialogueType = DialogueType.Normal;
-
-    }
     
+
+}
+[System.Serializable]
+public class DialoqueLine
+{
+    public CharacterName characterName;
+    public string dialoqueText;
+    public string conditionKey; //대화가 나올 조건을 체크할 키
+    public bool conditionMet; // 조건을 만족했는지 체크하는 플래그
 
 }

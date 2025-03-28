@@ -10,15 +10,11 @@ public class DialogueCanvas : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     bool isTyping;
-    int idx;
+    public int idx;
     public virtual void StartDialogue(Dialogue dialoque)
     {
-     
-       
         gameObject.SetActive(true);
         isTyping = false;
-        
-        
     }
     public void UpdateDialogue()
     {

@@ -11,15 +11,7 @@ public enum DialogueType
     Normal,
     Optional
 }
-[System.Serializable]
-public class DialoqueLine
-{
-    public CharacterName characterName;
-    public string dialoqueText;
-    public string conditionKey; //´ëÈ­°¡ ³ª¿Ã Á¶°ÇÀ» Ã¼Å©ÇÒ Å°
-    public bool conditionMet; // Á¶°ÇÀ» ¸¸Á·Çß´ÂÁö Ã¼Å©ÇÏ´Â ÇÃ·¡±×
 
-}
 [System.Serializable]
 public class DialogueCondition
 {
@@ -27,8 +19,8 @@ public class DialogueCondition
     public Condition[] conditions;
     public bool CheckCondition()
     {
-        //ConditionsÀÇ ¸ğµç Á¶°ÇÀÌ ÂüÀÎ°æ¿ì Ture
-        //ÇÏ³ª¶óµµ ºÒ¸¸Á·ÀÌ¸é false
+        //Conditionsì˜ ëª¨ë“  ì¡°ê±´ì´ ì°¸ì¸ê²½ìš° Ture
+        //í•˜ë‚˜ë¼ë„ ë¶ˆë§Œì¡±ì´ë©´ false
         for(int i = 0; i < conditions.Length ; i++)
         {
             if(!conditions[i].CheckCondition())
@@ -51,19 +43,19 @@ public class Condition
     {
         if(conditionType == ConditionType.ItemOwned)
         {
-            //À¯Àúµ¥ÀÌÅÍ ¾ÆÀÌÅÛÅ° °®°íÀÖ´ÂÁö ÆÇ´Ü
+            //ìœ ì €ë°ì´í„° ì•„ì´í…œí‚¤ ê°–ê³ ìˆëŠ”ì§€ íŒë‹¨
         }
         else if(conditionType == ConditionType.DialogueCount)
         {
              if(compareType == CompareType.Equals)
            {
-            //Ã¹´ëÈ­
-            //if(User.Instance.UserData.DialogueCount == 0) ¾î¶² ¿£ÇÇ¾¾¿ÍÀÇ ´ëÈ­ÀÎÁö ±¸ºĞ ¾î¶»°Ô ÇÒ±î?
+            //ì²«ëŒ€í™”
+            //if(User.Instance.UserData.DialogueCount == 0) ì–´ë–¤ ì—”í”¼ì”¨ì™€ì˜ ëŒ€í™”ì¸ì§€ êµ¬ë¶„ ì–´ë–»ê²Œ í• ê¹Œ?
            }
         }
          else if(conditionType == ConditionType.ItemNotOwned)
         {
-            //À¯Àúµ¥ÀÌÅÍ ¾ÆÀÌÅÛÅ° °®°íÀÖ´ÂÁö ÆÇ´Ü
+            //ìœ ì €ë°ì´í„° ì•„ì´í…œí‚¤ ê°–ê³ ìˆëŠ”ì§€ íŒë‹¨
         }
          else if(conditionType == ConditionType.Attractive)
         {
@@ -86,18 +78,18 @@ public class Condition
 }
 public enum ConditionType
 {
-    ItemOwned,        //  ¾ÆÀÌÅÛÀ» ¼ÒÁöÇÏ°í ÀÖ´Â °æ¿ì 
-    ItemNotOwned,     //  ¾ÆÀÌÅÛÀ» ¼ÒÁöÇÏÁö ¾ÊÀº °æ¿ì 
-    DialogueCount,    // ´ëÈ­ È½¼ö¿¡ µû¸¥ ºĞ±â 
-    Attractive,       // ¸Å·Âµµ (¿ÜÇüÀû ¸Å·Â µî)
-    Affection,        // Ä£¹Ğµµ (°ü°èÀÇ Ä£¹ĞÇÔ)
-    PlayerChoice,     //  ÇÃ·¹ÀÌ¾îÀÇ ¼±ÅÃ¿¡ µû¸¥ ºĞ±â
-    QuestCompleted,   //  Æ¯Á¤ Äù½ºÆ® ¿Ï·á ¿©ºÎ
-    TimeOfDay,        //  ³·/¹ã ¿©ºÎ
-    Location,         //  Æ¯Á¤ Àå¼Ò¿¡ ÀÖÀ» ¶§
-    ReputationHigh,   //  ÇÃ·¹ÀÌ¾î ¸í¼ºÀÌ ³ôÀ» ¶§
-    ReputationLow ,    //  ÇÃ·¹ÀÌ¾î ¸í¼ºÀÌ ³·À» ¶§
-    AnyEndingSeen      //¿£µùÀ» ÇÑ¹øÀÌ¶óµµ ÇÏ³ªÀÌ»ó ºÃÀ»¶§
+    ItemOwned,        //  ì•„ì´í…œì„ ì†Œì§€í•˜ê³  ìˆëŠ” ê²½ìš° 
+    ItemNotOwned,     //  ì•„ì´í…œì„ ì†Œì§€í•˜ì§€ ì•Šì€ ê²½ìš° 
+    DialogueCount,    // ëŒ€í™” íšŸìˆ˜ì— ë”°ë¥¸ ë¶„ê¸° 
+    Attractive,       // ë§¤ë ¥ë„ (ì™¸í˜•ì  ë§¤ë ¥ ë“±)
+    Affection,        // ì¹œë°€ë„ (ê´€ê³„ì˜ ì¹œë°€í•¨)
+    PlayerChoice,     //  í”Œë ˆì´ì–´ì˜ ì„ íƒì— ë”°ë¥¸ ë¶„ê¸°
+    QuestCompleted,   //  íŠ¹ì • í€˜ìŠ¤íŠ¸ ì™„ë£Œ ì—¬ë¶€
+    TimeOfDay,        //  ë‚®/ë°¤ ì—¬ë¶€
+    Location,         //  íŠ¹ì • ì¥ì†Œì— ìˆì„ ë•Œ
+    ReputationHigh,   //  í”Œë ˆì´ì–´ ëª…ì„±ì´ ë†’ì„ ë•Œ
+    ReputationLow ,    //  í”Œë ˆì´ì–´ ëª…ì„±ì´ ë‚®ì„ ë•Œ
+    AnyEndingSeen      //ì—”ë”©ì„ í•œë²ˆì´ë¼ë„ í•˜ë‚˜ì´ìƒ ë´¤ì„ë•Œ
 }
 public enum CompareType
 {

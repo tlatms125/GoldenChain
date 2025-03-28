@@ -7,12 +7,12 @@ public class NormalDialogue : Dialogue
         dialogueType = DialogueType.Normal;
 
     }
-    public DialoqueLine[] dialoqueLines; // 대화내용 배열
+    public DialogueLine[] dialogueLines; // 대화내용 배열
     public Dialogue nextDialogue; //현재 대화가 끝나면 시작될 대화, 없으면 대화 종료
 
-    public DialoqueLine GetNextLine(string conditionKey)
+    public DialogueLine GetNextLine(string conditionKey)
     {
-        foreach(var line in dialoqueLines)
+        foreach(var line in dialogueLines)
         {
             if(line.conditionKey == conditionKey)
             {
@@ -25,10 +25,10 @@ public class NormalDialogue : Dialogue
 
 }
 [System.Serializable]
-public class DialoqueLine
+public class DialogueLine
 {
     public CharacterName characterName;
-    public string dialoqueText;
+    public string dialogueText;
     public string conditionKey; //대화가 나올 조건을 체크할 키
     public bool conditionMet; // 조건을 만족했는지 체크하는 플래그
 

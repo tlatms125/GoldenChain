@@ -1,16 +1,23 @@
 using UnityEngine;
 
-public class DialogueInteraction : MonoBehaviour
+public class DialogueInteraction : Interaction
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    [SerializeField] public DialogueCondition[] dialogueConditions;
+
+    public override void StratInteraction()
     {
-        
+
+       for (int i = 0; i < dialogueConditions.Length; i++)
+       {
+            if(dialogueConditions[i].CheckCondition())
+            {
+              DialogueManager.Instance.GetDialogueCanvas (dialogueConditions[i].dialogue.dialogueType).StartDialogue(dialogueConditions[i].dialogue);
+              return;
+
+            }
+       }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+

@@ -11,7 +11,8 @@ public enum DialogueType
 {
     Normal,
     Optional,
-    InputField
+    InputField,
+    num
 }
 
 [System.Serializable]

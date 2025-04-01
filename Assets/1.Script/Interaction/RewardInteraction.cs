@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class PickUpInteraction : Interaction
+public class RewardInteraction : Interaction
 {
     public string item;
 
     public override void StratInteraction()
     {
-        //d¾ÆÀÌÅÛ È¹µæ ÀÎÅÍ·¢¼Ç
+        //ì•„ì´í…œ íšë“ ì¸í„°ë ‰ì…˜
+        
     }
 }

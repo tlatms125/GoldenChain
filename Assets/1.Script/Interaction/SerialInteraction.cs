@@ -6,5 +6,5 @@ public class SerialInteraction : Interaction
     {
         
     }
-    public Interaction[] Interactions 
+    public Interaction[] Interactions ;
 }

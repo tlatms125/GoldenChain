@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ed05f8369c83d84bbd01ca14a358f3f, type: 3}
-  m_Name: ImmigrationOfficer_First
+  m_Name: ImmigrationOfficer_First_2
   m_EditorClassIdentifier: 
   dialogueType: 0
   dialogueLines:
   - characterName: 1
-    dialogueText: "\uC774\uB984\uC774 \uBB50\uC57C?"
+    dialogueText: " \"\uAC70\uAE34 \uBC94\uC8C4\uC790\uAC00 \uB9CE\uC9C0. \uB611\uBC14\uB85C
+      \uC0B4\uC544\uB77C.\" "
     conditionKey: 
     conditionMet: 0
-  nextDialogue: {fileID: 11400000, guid: fbf4a604a9d12d44582be9a37675b059, type: 2}
+  - characterName: 1
+    dialogueText: "\uC65C \uC774 \uB098\uB77C\uC5D0 \uC654\uB098?"
+    conditionKey: 
+    conditionMet: 0
+  nextDialogue: {fileID: 11400000, guid: ffb00afc29eb5fa4da7587bf8b7b3899, type: 2}

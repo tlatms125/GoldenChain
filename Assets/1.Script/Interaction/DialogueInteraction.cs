@@ -12,7 +12,7 @@ public class DialogueInteraction : Interaction
        {
             if(dialogueConditions[i].CheckCondition())
             {
-              DialogueManager.Instance.GetDialogueCanvas (dialogueConditions[i].dialogue.dialogueType).StartDialogue(dialogueConditions[i].dialogue);
+              DialogueManager.Instance.GetDialogueCanvas(dialogueConditions[i].dialogue.dialogueType).StartDialogue(dialogueConditions[i].dialogue);
               return;
 
             }

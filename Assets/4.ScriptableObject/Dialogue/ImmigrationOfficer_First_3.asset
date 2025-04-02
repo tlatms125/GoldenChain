@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a222ffb2fb96e40a73e9ecf03d89d2, type: 3}
+  m_Name: ImmigrationOfficer_First_3
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  characterName: 0
+  dialogueText: 
+  choiceOptions:
+  - dialogueText: "\uB3C8\uC744 \uBC8C\uB7EC \uC654\uC2B5\uB2C8\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: d5694f897be897d4580cf218f0970a2b, type: 2}
+  - dialogueText: "\uC0C8\uB85C\uC6B4 \uACBD\uD5D8\uC744 \uD558\uAE30\uC704\uD574
+      \uC654\uC2B5\uB2C8\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: b20af8a1d2e59864196f0db357cd0c50, type: 2}
+  - dialogueText: "\uADF8\uB0E5 \uB180\uB7EC \uC654\uC2B5\uB2C8\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: b277134cb56543242810b7497318d8c5, type: 2}

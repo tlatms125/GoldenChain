@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d4cbb15290b8d346a99bc59cc1b4561, type: 3}
   m_Name: SetNickName
   m_EditorClassIdentifier: 
-  dialogueType: 0
+  dialogueType: 2
+  inputFieldType: 0
+  title: "\uD50C\uB808\uC774\uC5B4 \uC774\uB984\uC744 \uC124\uC815\uD574 \uC8FC\uC138\uC694."
+  nextDialouge: {fileID: 11400000, guid: aeb86e998711b1e4f8a6c5d619b13380, type: 2}
+  maxCharLimit: 10
+  minCharLimit: 2

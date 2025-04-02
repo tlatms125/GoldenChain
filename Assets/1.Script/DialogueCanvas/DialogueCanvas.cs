@@ -18,7 +18,7 @@ public class DialogueCanvas : MonoBehaviour
     }
     public virtual void UpdateDialogue()
     {
-        //  CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialogueLines[idx].characterName);
+       // CharacterData characterData =  CharacterManager.Instance.GetCharacterData(dialoque.dialogueLines[idx].characterName);
         //  nameText.text = characterData.Name;
         //  isTyping = true;
         //  dialogueText.text =dialoque.dialoqueLines[idx].dialoqueText.ToString() ;
@@ -38,7 +38,7 @@ public class DialogueCanvas : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
 
         if(Input.GetMouseButtonDown(0))

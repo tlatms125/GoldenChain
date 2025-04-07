@@ -22,15 +22,19 @@ public class NormalDialogue : Dialogue
        
         return null;
     }
-    public void CompleteDialogue()
+    public override void CompleteDialogue()
     {
-         for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
+        if(nextDialogue != null)
         {
-            if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
+            for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
             {
-                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
-            }
-        }    
+                if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
+                {
+                    DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
+                }
+            }   
+        }
+         
     }
 
 }
@@ -41,5 +45,11 @@ public class DialogueLine
     public string dialogueText;
     public string conditionKey; //대화가 나올 조건을 체크할 키
     public bool conditionMet; // 조건을 만족했는지 체크하는 플래그
+
+    public string GetDialogue()
+    {
+        
+        return Dialogue.GetDialogue(dialogueText);
+    }
 
 }

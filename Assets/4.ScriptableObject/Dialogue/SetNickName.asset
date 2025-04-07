@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueType: 2
   inputFieldType: 0
   title: "\uD50C\uB808\uC774\uC5B4 \uC774\uB984\uC744 \uC124\uC815\uD574 \uC8FC\uC138\uC694."
-  nextDialouge: {fileID: 11400000, guid: aeb86e998711b1e4f8a6c5d619b13380, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 7626a53700a60174e994fc3fcbac31bb, type: 2}
   maxCharLimit: 10
   minCharLimit: 2

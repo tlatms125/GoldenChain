@@ -2,12 +2,13 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework.Constraints;
 public class NormalDialogueCanvas : DialogueCanvas
 {
     public NormalDialogue normalDialogue;
     // public TMP_Text nameText;
     // public TMP_Text dialogueText;
-    bool isTyping;
+    
     
     public override void Update()
     {
@@ -24,12 +25,13 @@ public class NormalDialogueCanvas : DialogueCanvas
             {
                 StopAllCoroutines();
                 dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString();
+                isTyping = false;
                 if (IsLastIndex(normalDialogue.dialogueLines, idx))
                 {
                     normalDialogue.CompleteDialogue();
-                    UpdateDialogue();
+                    gameObject.SetActive(false);
                 }
-                isTyping = false;
+                
             }
         }
     }
@@ -56,8 +58,10 @@ public class NormalDialogueCanvas : DialogueCanvas
         nameText.text = characterData.Name;
         Debug.Log(nameText.text);
         isTyping = true;
-        dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString() ;
-        StartCoroutine(CoDialogue(normalDialogue.dialogueLines[idx].dialogueText));
+        //dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.Get;
+        
+        StartCoroutine(CoDialogue(normalDialogue.dialogueLines[idx].GetDialogue()));
+        
     }
      IEnumerator CoDialogue(string script )
     {

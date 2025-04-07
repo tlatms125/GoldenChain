@@ -9,7 +9,7 @@ public class DialogueCanvas : MonoBehaviour
     public DialogueType dialogueType;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
-    bool isTyping;
+    public bool isTyping;
     public int idx;
     public virtual void StartDialogue(Dialogue dialoque)
     {

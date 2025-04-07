@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
@@ -17,6 +18,25 @@ public class CharacterManager : MonoSingleton<CharacterManager>
         }
         return null; 
     }
+     public string GetName(CharacterName characterName)
+    {
+        if(characterName == CharacterName.Player)   
+        {
+            if(string.IsNullOrEmpty(PlayerPrefs.GetString("UserName")))
+            {
+                return "???";
+            }
+            else
+            {
+
+                  return PlayerPrefs.GetString("UserName");
+            }
+                
+            
+        }
+          return GetCharacterData(characterName).Name;
+          
+        }
 
 
 }
@@ -37,6 +57,7 @@ public class CharacterData
 }
 public enum CharacterName
 {
+   
     Player,
     immigrationOfficer, //입국심사관
 }

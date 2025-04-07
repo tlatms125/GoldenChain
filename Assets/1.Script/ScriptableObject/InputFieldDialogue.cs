@@ -3,7 +3,7 @@ using UnityEngine;
 public class InputFieldDialogue : Dialogue
 {
     public InputFieldType inputFieldType;
-    public string title; 
+    
     public Dialogue nextDialogue;
     public int maxCharLimit;
     public int minCharLimit;

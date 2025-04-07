@@ -4,7 +4,17 @@ using UnityEngine;
 public abstract class Dialogue : ScriptableObject
 {
     public DialogueType dialogueType;
-    string title;
+    public string title;
+
+    public static string GetDialogue(string text)
+    {
+        string finalDialogue = text.Replace(("(nick)"),PlayerPrefs.GetString("UserName"));
+        return finalDialogue;
+    }
+    public virtual void CompleteDialogue()
+    {
+        
+    }
    
 }
 public enum DialogueType

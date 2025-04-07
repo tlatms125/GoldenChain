@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueType: 0
   dialogueLines:
   - characterName: 1
-    dialogueText: "\uADF8\uB798 (\uC720\uC800\uB124\uC784) \uBC18\uAC11\uB2E4."
+    dialogueText: "\uADF8\uB798 (nick) \uBC18\uAC11\uB2E4."
     conditionKey: 
     conditionMet: 0
   - characterName: 1

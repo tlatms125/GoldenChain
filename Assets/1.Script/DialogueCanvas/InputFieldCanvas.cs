@@ -6,10 +6,10 @@ public class InputFieldCanvas : DialogueCanvas
     public TMP_Text titleText;
     [SerializeField] InputFieldDialogue inputFieldDialogue;
    
-    public void StartInputField (InputFieldDialogue dialogue)
+     public override void StartDialogue(Dialogue dialoque) 
     {
-        inputFieldDialogue = dialogue;
-        titleText.text = dialogue.title;
+        inputFieldDialogue = dialoque as InputFieldDialogue;
+        titleText.text = inputFieldDialogue.title;
     }
     public void OnClickedCompleteButton()
     {
@@ -24,7 +24,7 @@ public class InputFieldCanvas : DialogueCanvas
             Debug.LogError("? inputFieldDialogue가 null입니다. 인스펙터에서 연결되었는지 확인하세요.");
             return;
         }
-        
+
         if(inputFieldDialogue.minCharLimit > 0)
         {
             if(inputField.text.Length < inputFieldDialogue.minCharLimit)

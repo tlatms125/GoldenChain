@@ -8,11 +8,11 @@ public class NormalDialogueCanvas : DialogueCanvas
     // public TMP_Text nameText;
     // public TMP_Text dialogueText;
     bool isTyping;
-
+    
     public override void Update()
     {
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.F))
         {
             if(isTyping == false) 
             {
@@ -24,10 +24,17 @@ public class NormalDialogueCanvas : DialogueCanvas
             {
                 StopAllCoroutines();
                 dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString();
+                if (IsLastIndex(normalDialogue.dialogueLines, idx))
+                {
+                    normalDialogue.CompleteDialogue();
+                    UpdateDialogue();
+                }
                 isTyping = false;
             }
         }
     }
+    
+    
     public override void StartDialogue(Dialogue dialoque)
     { 
         normalDialogue = dialoque as NormalDialogue;
@@ -45,7 +52,9 @@ public class NormalDialogueCanvas : DialogueCanvas
     public override void UpdateDialogue()
     {
         CharacterData characterData =  CharacterManager.Instance.GetCharacterData(normalDialogue.dialogueLines[idx].characterName);
+      
         nameText.text = characterData.Name;
+        Debug.Log(nameText.text);
         isTyping = true;
         dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString() ;
         StartCoroutine(CoDialogue(normalDialogue.dialogueLines[idx].dialogueText));

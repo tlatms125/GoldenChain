@@ -9,15 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e27aee89b88e7043b33bca8ecd78f81, type: 3}
-  m_Name: HasItem
-  m_EditorClassIdentifier: Assembly-CSharp::Dialoque
-  dialoqueLines:
-  - characterName: 0
-    dialoqueText: asdasdsadsa
+  m_Script: {fileID: 11500000, guid: 2ed05f8369c83d84bbd01ca14a358f3f, type: 3}
+  m_Name: SetNickName_true
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  dialogueLines:
+  - characterName: 1
+    dialogueText: "\uADF8\uB798 (\uC720\uC800\uB124\uC784) \uBC18\uAC11\uB2E4."
     conditionKey: 
     conditionMet: 0
   - characterName: 1
-    dialoqueText: sadsadsadsadsadsaad
+    dialogueText: "\uCD9C\uC2E0\uC9C0\uAC00 \uC5B4\uB514\uC9C0?"
     conditionKey: 
     conditionMet: 0
+  nextDialogue: {fileID: 0}

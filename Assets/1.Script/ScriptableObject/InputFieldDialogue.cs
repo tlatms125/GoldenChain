@@ -4,7 +4,7 @@ public class InputFieldDialogue : Dialogue
 {
     public InputFieldType inputFieldType;
     public string title; 
-    public Dialogue nextDialouge;
+    public Dialogue nextDialogue;
     public int maxCharLimit;
     public int minCharLimit;
     public void CompleteInput(string text)
@@ -17,9 +17,9 @@ public class InputFieldDialogue : Dialogue
         }
         for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
         {
-            if(nextDialouge.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
+            if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
             {
-                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialouge);
+                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
             }
         }    
  

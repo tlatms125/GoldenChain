@@ -18,11 +18,7 @@ public class CharacterManager : MonoSingleton<CharacterManager>
         return null; 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
 [System.Serializable]
 public class CharacterData

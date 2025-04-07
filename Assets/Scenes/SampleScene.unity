@@ -2379,6 +2379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rgby: {fileID: 748779108}
+  characterName: 0
   moveSpeed: 2
 --- !u!4 &748779110
 Transform:

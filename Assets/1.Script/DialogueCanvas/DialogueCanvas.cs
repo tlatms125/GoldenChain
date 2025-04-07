@@ -41,7 +41,7 @@ public class DialogueCanvas : MonoBehaviour
     public virtual void Update()
     {
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.F))
         {
             if(isTyping == false) 
             {
@@ -57,7 +57,10 @@ public class DialogueCanvas : MonoBehaviour
             }
         }
     }
-
+    public virtual bool IsLastIndex<T>(T[] array, int index)
+    {
+        return index == array.Length - 1;
+    }
     
     
 }

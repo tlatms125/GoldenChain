@@ -19,9 +19,19 @@ public class NormalDialogue : Dialogue
                 return line; //조건에 맞는 대화라인 반환
             }
         }
+       
         return null;
     }
-    
+    public void CompleteDialogue()
+    {
+         for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
+        {
+            if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
+            {
+                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
+            }
+        }    
+    }
 
 }
 [System.Serializable]

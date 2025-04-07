@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public static Player Instance;
     public Rigidbody2D rgby;
+    [SerializeField] CharacterName  characterName;
     
     void Awake()
     {

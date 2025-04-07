@@ -13,10 +13,23 @@ public class InputFieldCanvas : DialogueCanvas
     }
     public void OnClickedCompleteButton()
     {
+            if (inputField == null)
+        {
+            Debug.LogError("? inputField가 null입니다. 인스펙터에서 연결되었는지 확인하세요.");
+            return;
+        }
+
+        if (inputFieldDialogue == null)
+        {
+            Debug.LogError("? inputFieldDialogue가 null입니다. 인스펙터에서 연결되었는지 확인하세요.");
+            return;
+        }
+        
         if(inputFieldDialogue.minCharLimit > 0)
         {
             if(inputField.text.Length < inputFieldDialogue.minCharLimit)
             {
+                
                 return;
             }
         }

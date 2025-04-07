@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueType: 1
   characterName: 0
-  dialogueText: 
+  dialogueText: "\uC120\uD0DD\uD574\uC8FC\uC148"
   choiceOptions:
   - dialogueText: "\uB3C8\uC744 \uBC8C\uB7EC \uC654\uC2B5\uB2C8\uB2E4."
     nextDialogue: {fileID: 11400000, guid: d5694f897be897d4580cf218f0970a2b, type: 2}

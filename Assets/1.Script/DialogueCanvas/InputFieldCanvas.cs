@@ -5,12 +5,15 @@ public class InputFieldCanvas : DialogueCanvas
     public TMP_InputField inputField;
     public TMP_Text titleText;
     [SerializeField] InputFieldDialogue inputFieldDialogue;
-   
+    
      public override void StartDialogue(Dialogue dialoque) 
     {
+        gameObject.SetActive(true);
+        
         inputFieldDialogue = dialoque as InputFieldDialogue;
         titleText.text = inputFieldDialogue.title;
     }
+    
     public void OnClickedCompleteButton()
     {
             if (inputField == null)

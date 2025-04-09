@@ -4,7 +4,7 @@ using UnityEngine.TextCore.Text;
 
 public class CharacterManager : MonoSingleton<CharacterManager>
 {
-    //�̱���
+    
     public CharacterData[] characterDatas;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    public CharacterData GetCharacterData(CharacterName characterName)

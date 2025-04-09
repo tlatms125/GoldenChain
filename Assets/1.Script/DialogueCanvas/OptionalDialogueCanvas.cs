@@ -11,7 +11,7 @@ public class OptionalDialogueCanvas : DialogueCanvas
         optionalDialogue = dialoque as OptionalDialogue;
         for(int i = 0 ; i < optionButtons.Length; i++)
         {
-            // °¹¼ö¿¡ ¸Â°Ô ¹öÆ° »ý¼º.
+            // ê°¯ìˆ˜ì— ë§žê²Œ ë²„íŠ¼ ìƒì„±.
         }
         nameText.text = CharacterManager.Instance.GetName(optionalDialogue.characterName);
         dialogueText.text = Dialogue.GetDialogue(optionalDialogue.dialogueText);

@@ -5,7 +5,7 @@ public abstract class Dialogue : ScriptableObject
 {
     public DialogueType dialogueType;
     public string title;
-
+   
     public static string GetDialogue(string text)
     {
         string finalDialogue = text.Replace(("(nick)"),PlayerPrefs.GetString("UserName"));

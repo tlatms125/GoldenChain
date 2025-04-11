@@ -6,6 +6,7 @@ public class OptionalDialogueCanvas : DialogueCanvas
     [SerializeField] OptionalDialogue optionalDialogue;
     [SerializeField] OptionButton[] optionButtons;
 
+
     public override void StartDialogue(Dialogue dialoque,IInteractable interactable)
     {
         base.StartDialogue(dialoque, interactable);
@@ -15,6 +16,7 @@ public class OptionalDialogueCanvas : DialogueCanvas
             if(i < optionalDialogue.choiceOptions.Length)
             {
                 optionButtons[i].gameObject.SetActive(true);
+                optionButtons[i].buttonText.text = optionalDialogue.choiceOptions[i].GetDialogue(optionalDialogue.characterName);
             }
             else
             {
@@ -23,24 +25,23 @@ public class OptionalDialogueCanvas : DialogueCanvas
             // 갯수에 맞게 버튼 생성.
         }
         nameText.text = CharacterManager.Instance.GetName(optionalDialogue.characterName);
-        dialogueText.text = Dialogue.GetDialogue(optionalDialogue.dialogueText);
+        dialogueText.text = Dialogue.GetDialogue(optionalDialogue.characterName,optionalDialogue.dialogueText);
+        
 
     }   
     public void SelectedOption(int idx)
     {
         Dialogue nextDialogue = optionalDialogue.choiceOptions[idx].nextDialogue ;
-        for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
+        if(nextDialogue != null)
         {
-            if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
-            {
-                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue, interactable);
-                
-            }
-            else
-            {
-                return;
-            }
-        } 
+            DialogueCanvas dialogueCanvas = DialogueManager.Instance.GetDialogueCanvas(nextDialogue.dialogueType);
+            dialogueCanvas.StartDialogue(nextDialogue, interactable);
+        }
+        else
+        {
+            interactable.EndInteract();
+        }
+        gameObject.SetActive(false);
         
     }
     

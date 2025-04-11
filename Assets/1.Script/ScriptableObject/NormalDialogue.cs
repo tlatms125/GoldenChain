@@ -55,7 +55,7 @@ public class DialogueLine
     public string GetDialogue()
     {
         
-        return Dialogue.GetDialogue(dialogueText);
+        return Dialogue.GetDialogue(characterName,dialogueText);
     }
 
 }

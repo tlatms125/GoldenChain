@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: PlaceOfOrigin_reply2
   m_EditorClassIdentifier: 
   dialogueType: 0
+  title: 
   dialogueLines:
   - characterName: 1
     dialogueText: "(\uBB34\uC2DC\uD558\uB294 \uB208\uCD08\uB9AC) \uB4E3\uB3C4\uBCF4\uB3C4
       \uBABB\uD55C \uACF3\uC774\uAD70. "
-    conditionKey: 
+    conditionType: 0
     conditionMet: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ffb00afc29eb5fa4da7587bf8b7b3899, type: 2}

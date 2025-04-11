@@ -6,9 +6,10 @@ public abstract class Dialogue : ScriptableObject
     public DialogueType dialogueType;
     public string title;
    
-    public static string GetDialogue(string text)
+    public static string GetDialogue(CharacterName characterName, string text)
     {
         string finalDialogue = text.Replace(("(nick)"),PlayerPrefs.GetString("UserName"));
+        finalDialogue = finalDialogue.Replace("(this)", CharacterManager.Instance.GetName(characterName));
         return finalDialogue;
     }
     public virtual void CompleteDialogue(IInteractable interactable)
@@ -22,6 +23,7 @@ public enum DialogueType
     Normal,
     Optional,
     InputField,
+    GetItem,
     num
 }
 

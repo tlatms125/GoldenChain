@@ -17,10 +17,10 @@ MonoBehaviour:
   dialogueLines:
   - characterName: 1
     dialogueText: "\uADF8\uB798 (nick) \uBC18\uAC11\uB2E4."
-    conditionKey: 
+    conditionType: 0
     conditionMet: 0
   - characterName: 1
     dialogueText: "\uCD9C\uC2E0\uC9C0\uAC00 \uC5B4\uB514\uC9C0?"
-    conditionKey: 
+    conditionType: 0
     conditionMet: 0
-  nextDialogue: {fileID: 11400000, guid: ffb00afc29eb5fa4da7587bf8b7b3899, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 716b4ccb7cde716438305ea7a7659a98, type: 2}

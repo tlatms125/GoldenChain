@@ -26,10 +26,10 @@ public class DialogueOption
     public Dialogue nextDialogue;
     //나중에 어떤 옵션을 선택했을 때 게임에 큰 영향을 줄때 여기에 기능 추가해야함 변수
  
-    public string GetDialogue()
+    public string GetDialogue(CharacterName speaker)
     {
         
-        return Dialogue.GetDialogue(dialogueText);
+        return Dialogue.GetDialogue(speaker,dialogueText);
     }
     
 }

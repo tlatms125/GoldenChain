@@ -33,7 +33,7 @@ public class NormalDialogueCanvas : DialogueCanvas
             {
                 Debug.Log("normarlDialogue.Update함수 isTypingelse인 경우 " +idx);
                 StopAllCoroutines();
-                dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString();
+                dialogueText.text =normalDialogue.dialogueLines[idx].GetDialogue();
                 isTyping = false;
               
                 

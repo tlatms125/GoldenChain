@@ -16,11 +16,11 @@ MonoBehaviour:
   title: 
   dialogueLines:
   - characterName: 1
-    dialogueText: "\uB09C \uC785\uAD6D\uC2EC\uC0AC\uAD00 \uB204\uAD6C\uB204\uAD6C\uB2E4."
-    conditionKey: 
+    dialogueText: "\uB09C \uC785\uAD6D\uC2EC\uC0AC\uAD00 (this)\uB2E4."
+    conditionType: 12
     conditionMet: 0
   - characterName: 1
     dialogueText: "\uC774\uB984\uC774 \uBB50\uC57C?"
-    conditionKey: 
+    conditionType: 12
     conditionMet: 0
   nextDialogue: {fileID: 11400000, guid: fbf4a604a9d12d44582be9a37675b059, type: 2}

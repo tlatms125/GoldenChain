@@ -11,7 +11,7 @@ public abstract class Dialogue : ScriptableObject
         string finalDialogue = text.Replace(("(nick)"),PlayerPrefs.GetString("UserName"));
         return finalDialogue;
     }
-    public virtual void CompleteDialogue()
+    public virtual void CompleteDialogue(IInteractable interactable)
     {
         
     }
@@ -102,7 +102,9 @@ public enum ConditionType
     Location,         //  특정 장소에 있을 때
     ReputationHigh,   //  플레이어 명성이 높을 때
     ReputationLow ,    //  플레이어 명성이 낮을 때
-    AnyEndingSeen      //엔딩을 한번이라도 하나이상 봤을때
+    AnyEndingSeen,      //엔딩을 한번이라도 하나이상 봤을때
+    Null //조건 없음
+
 }
 public enum CompareType
 {

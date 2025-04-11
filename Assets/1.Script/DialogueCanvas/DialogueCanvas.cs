@@ -11,8 +11,10 @@ public class DialogueCanvas : MonoBehaviour
     public TMP_Text dialogueText;
     public bool isTyping;
     public int idx;
-    public virtual void StartDialogue(Dialogue dialoque)
+    public IInteractable interactable;
+    public virtual void StartDialogue(Dialogue dialoque, IInteractable interactable)
     {
+        this.interactable = interactable;
         gameObject.SetActive(true);
         isTyping = false;
     }
@@ -46,20 +48,20 @@ public class DialogueCanvas : MonoBehaviour
             if(isTyping == false) 
             {
                 idx++;
-            UpdateDialogue();
+                UpdateDialogue();
             
             }
             else
             {
                 StopAllCoroutines();
-               // dialogueText.text =dialoque.dialogueLines[idx].dialoqueText.ToString();
+               // dialogueText.text = dialoque.dialogueLines[idx].dialoqueText.ToString();
                 isTyping = false;
             }
         }
     }
-    public virtual bool IsLastIndex<T>(T[] array, int index)
+    public virtual bool IsFinishedLastIndex<T>(T[] array, int index)
     {
-        return index == array.Length - 1;
+        return index >= array.Length;
     }
     
     

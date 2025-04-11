@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -9,7 +10,11 @@ public class NPC : MonoBehaviour, IInteractable
     [SerializeField] GameObject interactionUI;
     [SerializeField] CharacterName  characterName;
     public Interaction[] interactions;
-   
+    public bool isInteracting;
+    public bool IsInteracting => isInteracting;
+
+    public GameObject InteractionObject => gameObject;
+
     void Start()
     {
        // Player.Instance
@@ -21,12 +26,20 @@ public class NPC : MonoBehaviour, IInteractable
     {
         if(IsPlayerInRange && Input.GetKeyDown(KeyCode.F))
         {
-          
-                //상호작용
-                Interact();
-                interactionUI.gameObject.SetActive(false);
+            if(IsInteracting)
+                return;
+
+            isInteracting = true;
+
+            //상호작용
+            Interact(this);
+            interactionUI.gameObject.SetActive(false);
             
         }
+    }
+    public void EndInteract()
+    {
+        isInteracting = false;
     }
    private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -46,12 +59,13 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
-    public void Interact()
+    public void Interact(IInteractable interactable)
     {
         for(int i = 0; i < interactions.Length; i++)
         {
-            interactions[i].StratInteraction();
+            interactions[i].StratInteraction(interactable);
         }
+        //상호작용 끝나면 특정 함수 호출
         //조건에 만족하는지 검사
         //NPC와 상호작용 상세내용
         //대화 문구
@@ -68,4 +82,6 @@ public class NPC : MonoBehaviour, IInteractable
       //  } 
        // DialogueCanvas.Instance.StartDialogue(dialoque);
     }
+
+   
 }

@@ -6,8 +6,9 @@ public class InputFieldCanvas : DialogueCanvas
     public TMP_Text titleText;
     [SerializeField] InputFieldDialogue inputFieldDialogue;
     
-     public override void StartDialogue(Dialogue dialoque) 
+     public override void StartDialogue(Dialogue dialoque ,IInteractable interactable) 
     {
+        base.StartDialogue(dialoque,interactable);
         gameObject.SetActive(true);
         
         inputFieldDialogue = dialoque as InputFieldDialogue;
@@ -43,7 +44,7 @@ public class InputFieldCanvas : DialogueCanvas
                 return;
             }
         }
-        inputFieldDialogue.CompleteInput(inputField.text);
+        inputFieldDialogue.CompleteInput(inputField.text, interactable);
         //inputFieldDialogue.CompleteDialogue();
         //사용자 입력이 민보다 크면 고 
         //입력량이 맥스보다 작으면 고

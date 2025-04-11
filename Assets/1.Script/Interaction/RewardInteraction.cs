@@ -4,9 +4,8 @@ public class RewardInteraction : Interaction
 {
     public string item;
 
-    public override void StratInteraction()
+    public override void StratInteraction(IInteractable interactable)
     {
-        //아이템 획득 인터렉션
-        
+       
     }
 }

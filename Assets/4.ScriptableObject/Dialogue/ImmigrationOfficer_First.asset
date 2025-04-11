@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: ImmigrationOfficer_First
   m_EditorClassIdentifier: 
   dialogueType: 0
+  title: 
   dialogueLines:
+  - characterName: 1
+    dialogueText: "\uB09C \uC785\uAD6D\uC2EC\uC0AC\uAD00 \uB204\uAD6C\uB204\uAD6C\uB2E4."
+    conditionKey: 
+    conditionMet: 0
   - characterName: 1
     dialogueText: "\uC774\uB984\uC774 \uBB50\uC57C?"
     conditionKey: 

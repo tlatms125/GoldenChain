@@ -6,8 +6,9 @@ public class OptionalDialogueCanvas : DialogueCanvas
     [SerializeField] OptionalDialogue optionalDialogue;
     [SerializeField] OptionButton[] optionButtons;
 
-    public override void StartDialogue(Dialogue dialoque)
+    public override void StartDialogue(Dialogue dialoque,IInteractable interactable)
     {
+        base.StartDialogue(dialoque, interactable);
         optionalDialogue = dialoque as OptionalDialogue;
         for(int i = 0 ; i < optionButtons.Length; i++)
         {
@@ -32,7 +33,7 @@ public class OptionalDialogueCanvas : DialogueCanvas
         {
             if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
             {
-                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
+                DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue, interactable);
                 
             }
             else

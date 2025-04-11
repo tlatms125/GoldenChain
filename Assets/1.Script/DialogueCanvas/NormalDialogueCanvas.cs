@@ -17,36 +17,40 @@ public class NormalDialogueCanvas : DialogueCanvas
         {
             if(isTyping == false) 
             {
+                Debug.Log("normarlDialogue.Update함수 20번째줄"+ idx);
                 idx++;
-            UpdateDialogue();
+                if (IsFinishedLastIndex(normalDialogue.dialogueLines, idx))
+                {
+                    normalDialogue.CompleteDialogue(interactable);
+                   
+                    gameObject.SetActive(false);
+                    return;
+                }
+                UpdateDialogue();
             
             }
             else
             {
+                Debug.Log("normarlDialogue.Update함수 isTypingelse인 경우 " +idx);
                 StopAllCoroutines();
                 dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.ToString();
                 isTyping = false;
-                if (IsLastIndex(normalDialogue.dialogueLines, idx))
-                {
-                    normalDialogue.CompleteDialogue();
-                    gameObject.SetActive(false);
-                }
+              
                 
             }
         }
     }
     
     
-    public override void StartDialogue(Dialogue dialoque)
+    public override void StartDialogue(Dialogue dialoque,IInteractable interactable)
     { 
+        base.StartDialogue(dialoque, interactable);
+
         normalDialogue = dialoque as NormalDialogue;
         idx = 0;
-        gameObject.SetActive(true);
-        isTyping = false;
        
-        
-       
-         UpdateDialogue();
+    
+        UpdateDialogue();
         
     }
 
@@ -58,7 +62,7 @@ public class NormalDialogueCanvas : DialogueCanvas
         nameText.text = characterData.Name;
         Debug.Log(nameText.text);
         isTyping = true;
-        //dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.Get;
+        //dialogueText.text =normalDialogue.dialogueLines[idx].dialogueText.;
         
         StartCoroutine(CoDialogue(normalDialogue.dialogueLines[idx].GetDialogue()));
         

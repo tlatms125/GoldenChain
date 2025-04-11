@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class DialogueInteraction : Interaction
@@ -5,14 +6,15 @@ public class DialogueInteraction : Interaction
     
     [SerializeField] public DialogueCondition[] dialogueConditions;
 
-    public override void StratInteraction()
+    public override void StratInteraction(IInteractable interactable)
     {
 
        for (int i = 0; i < dialogueConditions.Length; i++)
        {
             if(dialogueConditions[i].CheckCondition())
             {
-              DialogueManager.Instance.GetDialogueCanvas(dialogueConditions[i].dialogue.dialogueType).StartDialogue(dialogueConditions[i].dialogue);
+              DialogueCanvas canvas = DialogueManager.Instance.GetDialogueCanvas(dialogueConditions[i].dialogue.dialogueType);
+              canvas.StartDialogue(dialogueConditions[i].dialogue, interactable);
               return;
 
             }

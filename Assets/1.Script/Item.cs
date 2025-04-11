@@ -2,8 +2,19 @@ using UnityEngine;
 
 public class Item : MonoBehaviour, IInteractable
 {
-    public void Interact()
+    bool isInteracting;
+    public GameObject InteractionObject => gameObject;
+
+    public bool IsInteracting => isInteracting;
+
+    public void EndInteract()
     {
-        //아이템과 상호작용 
+        isInteracting = false;
+    }
+
+
+    public void Interact(IInteractable interactable)
+    {
+        
     }
 }

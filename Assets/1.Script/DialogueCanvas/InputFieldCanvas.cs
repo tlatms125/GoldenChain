@@ -18,13 +18,13 @@ public class InputFieldCanvas : DialogueCanvas
     {
             if (inputField == null)
         {
-            Debug.LogError("? inputField°¡ nullÀÔ´Ï´Ù. ÀÎ½ºÆåÅÍ¿¡¼­ ¿¬°áµÇ¾ú´ÂÁö È®ÀÎÇÏ¼¼¿ä.");
+            Debug.LogError("? inputFieldê°€ nullì…ë‹ˆë‹¤. ì¸ìŠ¤í™í„°ì—ì„œ ì—°ê²°ë˜ì—ˆëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.");
             return;
         }
 
         if (inputFieldDialogue == null)
         {
-            Debug.LogError("? inputFieldDialogue°¡ nullÀÔ´Ï´Ù. ÀÎ½ºÆåÅÍ¿¡¼­ ¿¬°áµÇ¾ú´ÂÁö È®ÀÎÇÏ¼¼¿ä.");
+            Debug.LogError("? inputFieldDialogueê°€ nullì…ë‹ˆë‹¤. ì¸ìŠ¤í™í„°ì—ì„œ ì—°ê²°ë˜ì—ˆëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.");
             return;
         }
 
@@ -44,10 +44,17 @@ public class InputFieldCanvas : DialogueCanvas
             }
         }
         inputFieldDialogue.CompleteInput(inputField.text);
-        //»ç¿ëÀÚ ÀÔ·ÂÀÌ ¹Îº¸´Ù Å©¸é °í 
-        //ÀÔ·Â·®ÀÌ ¸Æ½ºº¸´Ù ÀÛÀ¸¸é °í
-        //±×¿Ü´Â ´Ù½Ã ÀÔ·ÂÇÏ¶ó°íÇÔ
+        //inputFieldDialogue.CompleteDialogue();
+        //ì‚¬ìš©ì ì…ë ¥ì´ ë¯¼ë³´ë‹¤ í¬ë©´ ê³  
+        //ì…ë ¥ëŸ‰ì´ ë§¥ìŠ¤ë³´ë‹¤ ì‘ìœ¼ë©´ ê³ 
+        //ê·¸ì™¸ëŠ” ë‹¤ì‹œ ì…ë ¥í•˜ë¼ê³ í•¨
         Debug.Log(inputField.text);
+        gameObject.SetActive(false);
     }
-    
+    public override void Update()
+    {
+        
+    }
+
+
 }

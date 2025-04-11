@@ -15,7 +15,7 @@ public class OptionButton : MonoBehaviour
     }
     public void OnClickedOptionButton()
     {
-        //¥Î»≠ 
+        GetComponentInParent<OptionalDialogueCanvas>().SelectedOption(idx);
 
     }
 

@@ -34,6 +34,10 @@ public class NormalDialogue : Dialogue
                 }
             }   
         }
+        else
+        {
+            Debug.Log("nextDialogue가 없습니다.");
+        }
          
     }
 

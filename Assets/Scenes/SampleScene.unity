@@ -1191,9 +1191,9 @@ RectTransform:
   - {fileID: 1695332295}
   m_Father: {fileID: 321320778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 531.38806, y: -130.5626}
   m_SizeDelta: {x: 1062.7, y: 81.8016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411006780
@@ -3217,9 +3217,9 @@ RectTransform:
   - {fileID: 1976359188}
   m_Father: {fileID: 321320778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 531.38806, y: -324.1658}
   m_SizeDelta: {x: 1062.7, y: 81.8016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823010952
@@ -4568,7 +4568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1132901152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4664,12 +4664,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4c9ff50f3060c44958548b42de3819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueType: 0
+  dialogueType: 1
   nameText: {fileID: 1993039693}
   dialogueText: {fileID: 340567744}
   isTyping: 0
   idx: 0
-  optionButtons: []
+  optionalDialogue: {fileID: 0}
+  optionButtons:
+  - {fileID: 411006783}
+  - {fileID: 1679588841}
+  - {fileID: 823010955}
 --- !u!1 &1189384972
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,9 +5628,9 @@ RectTransform:
   - {fileID: 1990179246}
   m_Father: {fileID: 321320778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 531.38806, y: -227.36421}
   m_SizeDelta: {x: 1062.7, y: 81.8016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679588838

@@ -12,18 +12,29 @@ public class InputFieldDialogue : Dialogue
         if (inputFieldType == InputFieldType.UserName)
         {
             PlayerPrefs.SetString("UserName", text);
-            //À¯Àú µ¥ÀÌÅÍ ½ºÅ©¸³Æ® ¸¸µé±â
-            // Å¸ÀÔÀÌ À¯Àú ³×ÀÓ ÀÌ¸é À¯ÀúÀÌ¸§ ÀúÀå
+            //ìœ ì € ë°ì´í„° ìŠ¤í¬ë¦½íŠ¸ ë§Œë“¤ê¸°
+            // íƒ€ì…ì´ ìœ ì € ë„¤ì„ ì´ë©´ ìœ ì €ì´ë¦„ ì €ì¥
         }
         for(int i =0 ; i <  DialogueManager.Instance.dialogueCanvases.Length; i++)
         {
             if(nextDialogue.dialogueType == DialogueManager.Instance.dialogueCanvases[i].dialogueType)
             {
                 DialogueManager.Instance.GetDialogueCanvas(DialogueManager.Instance.dialogueCanvases[i].dialogueType).StartDialogue(nextDialogue);
+                //ìŠ¤íƒ€íŠ¸ ë‹¤ì´ì•Œë¡œê·¸ ë§ê³  í…ìŠ¤íŠ¸ë¥¼ ë„˜ê²¨ì¤˜ì•¼í•¨ 
             }
-        }    
+            else
+            {
+                return;
+            }
+        } 
+        
  
     }
+    public override void CompleteDialogue()
+    {
+        
+    }
+
 }
 public enum InputFieldType
 {

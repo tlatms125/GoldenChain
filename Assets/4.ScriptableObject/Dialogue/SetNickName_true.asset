@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SetNickName_true
   m_EditorClassIdentifier: 
   dialogueType: 0
+  title: 
   dialogueLines:
   - characterName: 1
     dialogueText: "\uADF8\uB798 (nick) \uBC18\uAC11\uB2E4."
@@ -22,4 +23,4 @@ MonoBehaviour:
     dialogueText: "\uCD9C\uC2E0\uC9C0\uAC00 \uC5B4\uB514\uC9C0?"
     conditionKey: 
     conditionMet: 0
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ffb00afc29eb5fa4da7587bf8b7b3899, type: 2}

@@ -1,10 +1,15 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class User : MonoBehaviour
+public class User : MonoSingleton<User>
 {
-    //¾ÆÀÌÅÛ È¹µæ Ã³¸®
-    //À¯Àú ³×ÀÓ ÀúÀå
-    //°ÔÀÓ »óÅÂ ÀúÀå?
+    public UserData userData;
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ Ã³ï¿½ï¿½
+    //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½?
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,4 +21,32 @@ public class User : MonoBehaviour
     {
         
     }
+     void SaveUserData()
+    {
+        userData.SaveData();
+        SaveMgr.SaveData<UserData>("userData",userData);
+    }
+     
+}
+[System.Serializable]
+public class UserData
+{
+    public string userName;
+    public Dictionary<string, UserItemData> userItemDataDic = new Dictionary<string, UserItemData>();
+
+    
+    public List<UserItemData> userItemDataList = new List<UserItemData>();  
+    public void SaveData()
+    {  
+       userItemDataList = userItemDataDic.Values.ToList();
+      
+    }
+
+}
+[System.Serializable]
+public class UserItemData
+{
+    public string key;
+    public int count;
+   // public ItemCategory itemCategory; 
 }

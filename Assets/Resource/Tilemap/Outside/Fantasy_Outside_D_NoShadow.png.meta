@@ -1,0 +1,2467 @@
+fileFormatVersion: 2
+guid: 39382313f27914673a7fb7477b4cb507
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1154585509178539558
+    second: Fantasy_Outside_D_NoShadow_0
+  - first:
+      213: 1953627118751396987
+    second: Fantasy_Outside_D_NoShadow_1
+  - first:
+      213: 8437109642222681686
+    second: Fantasy_Outside_D_NoShadow_2
+  - first:
+      213: 9192082424287503854
+    second: Fantasy_Outside_D_NoShadow_3
+  - first:
+      213: -8919058612843635126
+    second: Fantasy_Outside_D_NoShadow_4
+  - first:
+      213: -1025879654649050523
+    second: Fantasy_Outside_D_NoShadow_5
+  - first:
+      213: -9094143881707788013
+    second: Fantasy_Outside_D_NoShadow_6
+  - first:
+      213: -6689030207652091575
+    second: Fantasy_Outside_D_NoShadow_7
+  - first:
+      213: -3640159727682564392
+    second: Fantasy_Outside_D_NoShadow_8
+  - first:
+      213: 3077335223114037387
+    second: Fantasy_Outside_D_NoShadow_9
+  - first:
+      213: -3291788923448472715
+    second: Fantasy_Outside_D_NoShadow_10
+  - first:
+      213: 6386664177384741816
+    second: Fantasy_Outside_D_NoShadow_11
+  - first:
+      213: 2232217683088462054
+    second: Fantasy_Outside_D_NoShadow_12
+  - first:
+      213: -8185661284574993492
+    second: Fantasy_Outside_D_NoShadow_13
+  - first:
+      213: 6983389893498928643
+    second: Fantasy_Outside_D_NoShadow_14
+  - first:
+      213: -7800790887521965885
+    second: Fantasy_Outside_D_NoShadow_15
+  - first:
+      213: 7190469162527645229
+    second: Fantasy_Outside_D_NoShadow_16
+  - first:
+      213: -6174859630109741398
+    second: Fantasy_Outside_D_NoShadow_17
+  - first:
+      213: 1849020805790123209
+    second: Fantasy_Outside_D_NoShadow_18
+  - first:
+      213: -4429831852861299505
+    second: Fantasy_Outside_D_NoShadow_19
+  - first:
+      213: 2993741652242514626
+    second: Fantasy_Outside_D_NoShadow_20
+  - first:
+      213: -6792937479886487884
+    second: Fantasy_Outside_D_NoShadow_21
+  - first:
+      213: 1812163916406081336
+    second: Fantasy_Outside_D_NoShadow_22
+  - first:
+      213: -4265762208345417704
+    second: Fantasy_Outside_D_NoShadow_23
+  - first:
+      213: -4568547066758489108
+    second: Fantasy_Outside_D_NoShadow_24
+  - first:
+      213: -3745117136262194812
+    second: Fantasy_Outside_D_NoShadow_25
+  - first:
+      213: -8334451878702706411
+    second: Fantasy_Outside_D_NoShadow_26
+  - first:
+      213: -2239493279872472626
+    second: Fantasy_Outside_D_NoShadow_27
+  - first:
+      213: -6075352859704011354
+    second: Fantasy_Outside_D_NoShadow_28
+  - first:
+      213: -1158412626690624093
+    second: Fantasy_Outside_D_NoShadow_29
+  - first:
+      213: -9027674851859557087
+    second: Fantasy_Outside_D_NoShadow_30
+  - first:
+      213: -2592601852418820097
+    second: Fantasy_Outside_D_NoShadow_31
+  - first:
+      213: -598149703260788882
+    second: Fantasy_Outside_D_NoShadow_32
+  - first:
+      213: 526768062446848875
+    second: Fantasy_Outside_D_NoShadow_33
+  - first:
+      213: -8102579357631468897
+    second: Fantasy_Outside_D_NoShadow_34
+  - first:
+      213: 349943777804729104
+    second: Fantasy_Outside_D_NoShadow_35
+  - first:
+      213: -5879195333251248441
+    second: Fantasy_Outside_D_NoShadow_36
+  - first:
+      213: 3141614463219520478
+    second: Fantasy_Outside_D_NoShadow_37
+  - first:
+      213: -3566520654877474064
+    second: Fantasy_Outside_D_NoShadow_38
+  - first:
+      213: 8176202286952286918
+    second: Fantasy_Outside_D_NoShadow_39
+  - first:
+      213: -1815366843801618800
+    second: Fantasy_Outside_D_NoShadow_40
+  - first:
+      213: 750901441602031668
+    second: Fantasy_Outside_D_NoShadow_41
+  - first:
+      213: 3834028045826589631
+    second: Fantasy_Outside_D_NoShadow_42
+  - first:
+      213: -8050333261919378703
+    second: Fantasy_Outside_D_NoShadow_43
+  - first:
+      213: -4239113322209541557
+    second: Fantasy_Outside_D_NoShadow_44
+  - first:
+      213: 3180473539842728887
+    second: Fantasy_Outside_D_NoShadow_45
+  - first:
+      213: -6545428075684144541
+    second: Fantasy_Outside_D_NoShadow_46
+  - first:
+      213: 9085054561121880478
+    second: Fantasy_Outside_D_NoShadow_47
+  - first:
+      213: 5497380449008483236
+    second: Fantasy_Outside_D_NoShadow_48
+  - first:
+      213: 1203588367679269546
+    second: Fantasy_Outside_D_NoShadow_49
+  - first:
+      213: 8557912397039205764
+    second: Fantasy_Outside_D_NoShadow_50
+  - first:
+      213: -5943143679070054060
+    second: Fantasy_Outside_D_NoShadow_51
+  - first:
+      213: -4172843867390417124
+    second: Fantasy_Outside_D_NoShadow_52
+  - first:
+      213: 3934543699361579169
+    second: Fantasy_Outside_D_NoShadow_53
+  - first:
+      213: 4764041200404116363
+    second: Fantasy_Outside_D_NoShadow_54
+  - first:
+      213: 5603846545925845364
+    second: Fantasy_Outside_D_NoShadow_55
+  - first:
+      213: 6491981964465672715
+    second: Fantasy_Outside_D_NoShadow_56
+  - first:
+      213: 2891278340795273283
+    second: Fantasy_Outside_D_NoShadow_57
+  - first:
+      213: -7592886905696105352
+    second: Fantasy_Outside_D_NoShadow_58
+  - first:
+      213: 3706206161411466782
+    second: Fantasy_Outside_D_NoShadow_59
+  - first:
+      213: -5014577421610983212
+    second: Fantasy_Outside_D_NoShadow_60
+  - first:
+      213: 3809629250415909772
+    second: Fantasy_Outside_D_NoShadow_61
+  - first:
+      213: -3911672833917626124
+    second: Fantasy_Outside_D_NoShadow_62
+  - first:
+      213: -7431854833832123429
+    second: Fantasy_Outside_D_NoShadow_63
+  - first:
+      213: 8000850671170246636
+    second: Fantasy_Outside_D_NoShadow_64
+  - first:
+      213: 6343839409087902837
+    second: Fantasy_Outside_D_NoShadow_65
+  - first:
+      213: 3240141062072378374
+    second: Fantasy_Outside_D_NoShadow_66
+  - first:
+      213: -5785936330442755075
+    second: Fantasy_Outside_D_NoShadow_67
+  - first:
+      213: 8483031702499553690
+    second: Fantasy_Outside_D_NoShadow_68
+  - first:
+      213: -5635596449170570423
+    second: Fantasy_Outside_D_NoShadow_69
+  - first:
+      213: -8328874771458944934
+    second: Fantasy_Outside_D_NoShadow_70
+  - first:
+      213: -3650393370171916356
+    second: Fantasy_Outside_D_NoShadow_71
+  - first:
+      213: 3036543619053942850
+    second: Fantasy_Outside_D_NoShadow_72
+  - first:
+      213: 2415314757885567245
+    second: Fantasy_Outside_D_NoShadow_73
+  - first:
+      213: 4376230993722283614
+    second: Fantasy_Outside_D_NoShadow_74
+  - first:
+      213: -2155745118207320658
+    second: Fantasy_Outside_D_NoShadow_75
+  - first:
+      213: -7479077603056090211
+    second: Fantasy_Outside_D_NoShadow_76
+  - first:
+      213: 7926158086530279547
+    second: Fantasy_Outside_D_NoShadow_77
+  - first:
+      213: 3422202942945856355
+    second: Fantasy_Outside_D_NoShadow_78
+  - first:
+      213: -1853189666928866715
+    second: Fantasy_Outside_D_NoShadow_79
+  - first:
+      213: 7972640842524353609
+    second: Fantasy_Outside_D_NoShadow_80
+  - first:
+      213: 6329730662045901711
+    second: Fantasy_Outside_D_NoShadow_81
+  - first:
+      213: -2832535859083360364
+    second: Fantasy_Outside_D_NoShadow_82
+  - first:
+      213: 2837062932854276478
+    second: Fantasy_Outside_D_NoShadow_83
+  - first:
+      213: 4304850507737527096
+    second: Fantasy_Outside_D_NoShadow_84
+  - first:
+      213: 6975434061580465558
+    second: Fantasy_Outside_D_NoShadow_85
+  - first:
+      213: -1202997779193321486
+    second: Fantasy_Outside_D_NoShadow_86
+  - first:
+      213: -8135956775077800742
+    second: Fantasy_Outside_D_NoShadow_87
+  - first:
+      213: 3894490883499811135
+    second: Fantasy_Outside_D_NoShadow_88
+  - first:
+      213: 117055623187559932
+    second: Fantasy_Outside_D_NoShadow_89
+  - first:
+      213: 6835557571489576039
+    second: Fantasy_Outside_D_NoShadow_90
+  - first:
+      213: -2155692953660402852
+    second: Fantasy_Outside_D_NoShadow_91
+  - first:
+      213: -7354668010303330953
+    second: Fantasy_Outside_D_NoShadow_92
+  - first:
+      213: -7746013819097188156
+    second: Fantasy_Outside_D_NoShadow_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 547
+        width: 176
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e76614769e50010800000000000000
+      internalID: 1154585509178539558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 434
+        width: 232
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b743fb4838dac1b10800000000000000
+      internalID: 1953627118751396987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 719
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eb4b39482a61570800000000000000
+      internalID: 8437109642222681686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 678
+        width: 117
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a4cd5346d09f70800000000000000
+      internalID: 9192082424287503854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 627
+        width: 160
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e11926273293480800000000000000
+      internalID: -8919058612843635126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 719
+        width: 144
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac752b3e753c1f0800000000000000
+      internalID: -1025879654649050523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 719
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319e38a825c1bc180800000000000000
+      internalID: -9094143881707788013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_7
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 671
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9492a05577acb23a0800000000000000
+      internalID: -6689030207652091575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_8
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 671
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de4cc9930e8b7dc0800000000000000
+      internalID: -3640159727682564392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 536
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88728cb414e4ba20800000000000000
+      internalID: 3077335223114037387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 527
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc94e2a673152d0800000000000000
+      internalID: -3291788923448472715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_11
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 576
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbdab83b3df1a850800000000000000
+      internalID: 6386664177384741816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 583
+        width: 43
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e055dde72e6afe10800000000000000
+      internalID: 2232217683088462054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 580
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca36d316e60b66e80800000000000000
+      internalID: -8185661284574993492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_14
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 527
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e7e0acb1cf9e060800000000000000
+      internalID: 6983389893498928643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 553
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c82626a4060eb390800000000000000
+      internalID: -7800790887521965885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 550
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e5cd84b9da9c360800000000000000
+      internalID: 7190469162527645229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_17
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 529
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaea869d1ed7e4aa0800000000000000
+      internalID: -6174859630109741398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 533
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c44d6750aa09a910800000000000000
+      internalID: 1849020805790123209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 193
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ed7b66631682c0800000000000000
+      internalID: -4429831852861299505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 436
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2c433db28eb8920800000000000000
+      internalID: 2993741652242514626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 448
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bebde14a53aab1a0800000000000000
+      internalID: -6792937479886487884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 483
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8374a201b79162910800000000000000
+      internalID: 1812163916406081336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_23
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 495
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818194b5fd7fcc4c0800000000000000
+      internalID: -4265762208345417704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 506
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb1532e5a24990c0800000000000000
+      internalID: -4568547066758489108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 434
+        width: 45
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4891dda9ecba60cc0800000000000000
+      internalID: -3745117136262194812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_26
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 434
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51196549c24165c80800000000000000
+      internalID: -8334451878702706411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 482
+        width: 94
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9a3503ab8bbe0e0800000000000000
+      internalID: -2239493279872472626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_28
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 438
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5503043c200bba0800000000000000
+      internalID: -6075352859704011354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_29
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 479
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a537c28add7cefe0800000000000000
+      internalID: -1158412626690624093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_30
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 401
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1251f2b8d8147b280800000000000000
+      internalID: -9027674851859557087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 414
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff77e86f95a350cd0800000000000000
+      internalID: -2592601852418820097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 375
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67a2a69302f2b7f0800000000000000
+      internalID: -598149703260788882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_33
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 431
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b4a2903c47f4700800000000000000
+      internalID: 526768062446848875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_34
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 398
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aa6f7e00bdd8f80800000000000000
+      internalID: -8102579357631468897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_35
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 415
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bb86703004bd400800000000000000
+      internalID: 349943777804729104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_36
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 396
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cecc646ef6e86ea0800000000000000
+      internalID: -5879195333251248441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_37
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 383
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3dd6595b1499b20800000000000000
+      internalID: 3141614463219520478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_38
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 384
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f24fe15c5c218ec0800000000000000
+      internalID: -3566520654877474064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_39
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 399
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca078d19a4b77170800000000000000
+      internalID: 8176202286952286918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 294
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096be2a49758ec6e0800000000000000
+      internalID: -1815366843801618800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 384
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4309408f1ecbb6a00800000000000000
+      internalID: 750901441602031668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_42
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 374
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb30162b134353530800000000000000
+      internalID: 3834028045826589631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_43
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 373
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2a8cffc88774090800000000000000
+      internalID: -8050333261919378703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_44
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 363
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42031ba4e4ab25c0800000000000000
+      internalID: -4239113322209541557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_45
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 370
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3ead765df432c20800000000000000
+      internalID: 3180473539842728887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_46
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 363
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a5af528d7f925a0800000000000000
+      internalID: -6545428075684144541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 363
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9946b81df8941e70800000000000000
+      internalID: 9085054561121880478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_48
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 372
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abf35a546e9a4c40800000000000000
+      internalID: 5497380449008483236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_49
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 362
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaa0575e3104b010800000000000000
+      internalID: 1203588367679269546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_50
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 367
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dfe6cbbffc3c670800000000000000
+      internalID: 8557912397039205764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_51
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 368
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459dbefdf46b58da0800000000000000
+      internalID: -5943143679070054060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_52
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 355
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17e60d7c941716c0800000000000000
+      internalID: -4172843867390417124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_53
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 358
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0c2b106ae4a9630800000000000000
+      internalID: 3934543699361579169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_54
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 354
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83b9651b364d1240800000000000000
+      internalID: 4764041200404116363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_55
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 356
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471b5b93ebcd4cd40800000000000000
+      internalID: 5603846545925845364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_56
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 361
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0218306337281a50800000000000000
+      internalID: 6491981964465672715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_57
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 359
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34012e11552ef1820800000000000000
+      internalID: 2891278340795273283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_58
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 357
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cc44e8695a0a690800000000000000
+      internalID: -7592886905696105352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_59
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 354
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e166b431ed61f6330800000000000000
+      internalID: 3706206161411466782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_60
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 351
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0ee264764a86ab0800000000000000
+      internalID: -5014577421610983212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_61
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 337
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b5af47e958ed430800000000000000
+      internalID: 3809629250415909772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 341
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f85bc05842f6b9c0800000000000000
+      internalID: -3911672833917626124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_63
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 349
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3aa2f776fbcd890800000000000000
+      internalID: -7431854833832123429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_64
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 350
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce75c0c8b4bb80f60800000000000000
+      internalID: 8000850671170246636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_65
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 347
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574fecad458d90850800000000000000
+      internalID: 6343839409087902837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_66
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 344
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6042bf2012b47fc20800000000000000
+      internalID: 3240141062072378374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_67
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 340
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3beea009934bfa0800000000000000
+      internalID: -5785936330442755075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 238
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91fcdd6368c9b570800000000000000
+      internalID: 8483031702499553690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_69
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 293
+        width: 138
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9434cbd53e65ac1b0800000000000000
+      internalID: -5635596449170570423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_70
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 310
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a501a7c0684e96c80800000000000000
+      internalID: -8328874771458944934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_71
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 287
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf36780292375dc0800000000000000
+      internalID: -3650393370171916356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_72
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 304
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24870be4558f32a20800000000000000
+      internalID: 3036543619053942850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_73
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 305
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d012784b9fbe48120800000000000000
+      internalID: 2415314757885567245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_74
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 20
+        width: 133
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e561fdb07ee7bbc30800000000000000
+      internalID: 4376230993722283614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_75
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 191
+        width: 194
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead58f29c314512e0800000000000000
+      internalID: -2155745118207320658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 239
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93034ebb8af43890800000000000000
+      internalID: -7479077603056090211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_77
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 240
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b782a3df8ce5ffd60800000000000000
+      internalID: 7926158086530279547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_78
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 252
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b859be17b1e7f20800000000000000
+      internalID: 3422202942945856355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_79
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 239
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac74901d52846e0800000000000000
+      internalID: -1853189666928866715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_80
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 242
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9446f6cfa9284ae60800000000000000
+      internalID: 7972640842524353609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_81
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 214
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83e4233088b7d750800000000000000
+      internalID: 6329730662045901711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_82
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 224
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497c7c1c4afc0b8d0800000000000000
+      internalID: -2832535859083360364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_83
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 162
+        width: 91
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71053eb4b54f5720800000000000000
+      internalID: 2837062932854276478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_84
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 205
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833fadc8ab6edbb30800000000000000
+      internalID: 4304850507737527096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_85
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 211
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695f9a25258bdc060800000000000000
+      internalID: 6975434061580465558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_86
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 194
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f72991c4e71e4fe0800000000000000
+      internalID: -1202997779193321486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_87
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 145
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad41e815b66471f80800000000000000
+      internalID: -8135956775077800742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_88
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 167
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31e00c13d20c0630800000000000000
+      internalID: 3894490883499811135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_89
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 161
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf57e07187ddf9100800000000000000
+      internalID: 117055623187559932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 176
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7643e5a1567ccde50800000000000000
+      internalID: 6835557571489576039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_91
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 23
+        width: 50
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5352441ea07512e0800000000000000
+      internalID: -2155692953660402852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_92
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775e0fc4968fee990800000000000000
+      internalID: -7354668010303330953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Outside_D_NoShadow_93
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 15
+        width: 160
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8f17fb871a08490800000000000000
+      internalID: -7746013819097188156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,7 +17,7 @@ public class NormalDialogueCanvas : DialogueCanvas
         {
             if(isTyping == false) 
             {
-                Debug.Log("normarlDialogue.Update함수 20번째줄"+ idx);
+                
                 idx++;
                 if (IsFinishedLastIndex(normalDialogue.dialogueLines, idx))
                 {
@@ -31,7 +31,7 @@ public class NormalDialogueCanvas : DialogueCanvas
             }
             else
             {
-                Debug.Log("normarlDialogue.Update함수 isTypingelse인 경우 " +idx);
+               
                 StopAllCoroutines();
                 dialogueText.text =normalDialogue.dialogueLines[idx].GetDialogue();
                 isTyping = false;

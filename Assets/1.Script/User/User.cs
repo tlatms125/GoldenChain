@@ -31,19 +31,32 @@ public class UserData
 {
     public string userName;
     public Dictionary<string, UserItemData> userItemDataDic = new Dictionary<string, UserItemData>();
-
-    
     public List<UserItemData> userItemDataList = new List<UserItemData>();  
     public void SaveData()
     {  
        userItemDataList = userItemDataDic.Values.ToList();
       
     }
+    public void AddItem(string itemKey, int value)
+    {
+        if(!userItemDataDic.ContainsKey(itemKey))
+        {
+           userItemDataDic.Add(itemKey, new UserItemData(itemKey));
+           
+        }
+        userItemDataDic[itemKey].count += value;
+        
+       
+    }
 
 }
 [System.Serializable]
 public class UserItemData
 {
+    public UserItemData (string key)
+    {
+        this.key = key;
+    }
     public string key;
     public int count;
    // public ItemCategory itemCategory; 

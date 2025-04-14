@@ -1,24 +1,23 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "GetIteimDialogue", menuName = "Dialogue System/GetIteimDialogue")]
-public class GetItemDialogue : Dialogue
+[CreateAssetMenu(fileName = "RewardDialogue", menuName = "Dialogue System/RewardDialogue")]
+public class RewardDialogue : Dialogue
 {
-    public GetItemDialogue()
+    public RewardDialogue()
     {
-        dialogueType =DialogueType.GetItem;
+        dialogueType =DialogueType.RewardItem;
     }
     public CharacterName characterName;
-    public string itemKey;
+    public ItemData itemData;
+    public int rewardCount;
     public string dialogueText;
     public Dialogue nextDialogue;
     public override void CompleteDialogue(IInteractable interactable)
     {
-        // for(int i =0 ; i < ItemData.length; i++)
-        // {
-        //     ItemData[i].itemKey = itemKey;
-        //     User.Instance.userData.getItem(itemKey);
-        //     return ItemData[i];
-        // }
+        
+            User.Instance.userData.AddItem(itemData.itemKey,rewardCount);
+           
+       
         // itemKey에 해당하는 아이템 획득처리
 
         if(nextDialogue != null)

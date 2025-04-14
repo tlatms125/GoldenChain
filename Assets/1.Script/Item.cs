@@ -18,4 +18,4 @@ public class Item : MonoBehaviour, IInteractable
         
     }
 }
-// public class ItemData //½ºÅ©·¦ÅÍºí ¿ÀºêÁ§Æ®·Î ¾ÆÀÌÅÛ ±¸Çö
+// public class ItemData //ìŠ¤í¬ë©í„°ë¸” ì˜¤ë¸Œì íŠ¸ë¡œ ì•„ì´í…œ êµ¬í˜„

@@ -4,6 +4,7 @@ using UnityEngine;
 public abstract class Dialogue : ScriptableObject
 {
     public DialogueType dialogueType;
+    public string[] calledIds;
     public string title;
    
     public static string GetDialogue(CharacterName characterName, string text)
@@ -23,7 +24,7 @@ public enum DialogueType
     Normal,
     Optional,
     InputField,
-    GetItem,
+    RewardItem,
     num
 }
 

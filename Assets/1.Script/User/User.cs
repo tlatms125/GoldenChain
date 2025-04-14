@@ -7,9 +7,7 @@ using UnityEngine;
 public class User : MonoSingleton<User>
 {
     public UserData userData;
-    //������ ȹ�� ó��
-    //���� ���� ����
-    //���� ���� ����?
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

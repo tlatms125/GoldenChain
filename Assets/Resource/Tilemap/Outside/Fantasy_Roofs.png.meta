@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fantasy_Roofs_0: -1547080303693913367
+      Fantasy_Roofs_1: 9044974583710491566
+      Fantasy_Roofs_2: -7012386405571506770
+      Fantasy_Roofs_3: -8602039640912924714
+      Fantasy_Roofs_4: -4621347989880539249
+      Fantasy_Roofs_5: 306581805315391044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -127,7 +127,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fantasy_Outside_A2_0: -2819791465891228280
+      Fantasy_Outside_A2_1: -7882178604281528273
+      Fantasy_Outside_A2_10: -7747694631681504157
+      Fantasy_Outside_A2_11: 2080358796865826910
+      Fantasy_Outside_A2_12: 344955365703229297
+      Fantasy_Outside_A2_13: -5229169824877572578
+      Fantasy_Outside_A2_14: -4933876228415969763
+      Fantasy_Outside_A2_15: -3932525382739110564
+      Fantasy_Outside_A2_16: 5661645026918544564
+      Fantasy_Outside_A2_17: 7527339680226824954
+      Fantasy_Outside_A2_18: -5332141097455477382
+      Fantasy_Outside_A2_19: -6479019780813759632
+      Fantasy_Outside_A2_2: -4338907301395093739
+      Fantasy_Outside_A2_20: 4871415741257345121
+      Fantasy_Outside_A2_21: 61774096178034306
+      Fantasy_Outside_A2_22: 7650946724838761566
+      Fantasy_Outside_A2_23: -4621273017558759062
+      Fantasy_Outside_A2_24: -6407531432650279080
+      Fantasy_Outside_A2_25: 3869541902482114390
+      Fantasy_Outside_A2_26: -9119445937264971756
+      Fantasy_Outside_A2_27: -7599577700103052211
+      Fantasy_Outside_A2_28: 5689359506649588423
+      Fantasy_Outside_A2_29: -400807558083922455
+      Fantasy_Outside_A2_3: 2223233470335276330
+      Fantasy_Outside_A2_30: 7145099426684001927
+      Fantasy_Outside_A2_4: -5070802682378839799
+      Fantasy_Outside_A2_5: 8856254379122436590
+      Fantasy_Outside_A2_6: 4747892707885511260
+      Fantasy_Outside_A2_7: -142294044311868284
+      Fantasy_Outside_A2_8: 9001712644640003588
+      Fantasy_Outside_A2_9: -632312234503528514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

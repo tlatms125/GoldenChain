@@ -18,3 +18,4 @@ public class Item : MonoBehaviour, IInteractable
         
     }
 }
+// public class ItemData //스크랩터블 오브젝트로 아이템 구현

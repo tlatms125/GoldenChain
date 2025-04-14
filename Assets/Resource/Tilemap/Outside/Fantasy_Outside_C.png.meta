@@ -337,7 +337,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2634,7 +2634,108 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fantasy_Outside_C_0: -4137481337796081028
+      Fantasy_Outside_C_1: 8927261523419028884
+      Fantasy_Outside_C_10: -5483331449803302113
+      Fantasy_Outside_C_100: 5504678137950399960
+      Fantasy_Outside_C_11: -949353794609696430
+      Fantasy_Outside_C_12: -2619973007702931638
+      Fantasy_Outside_C_13: -6392952547226066727
+      Fantasy_Outside_C_14: -2327948026386378798
+      Fantasy_Outside_C_15: -7818399263027710686
+      Fantasy_Outside_C_16: -61762438536905091
+      Fantasy_Outside_C_17: -3583301376091641027
+      Fantasy_Outside_C_18: -1586848788404414373
+      Fantasy_Outside_C_19: 2422825867396116382
+      Fantasy_Outside_C_2: -6836519876942999509
+      Fantasy_Outside_C_20: 8414308366443468184
+      Fantasy_Outside_C_21: -207852729996037520
+      Fantasy_Outside_C_22: -7902466179081294484
+      Fantasy_Outside_C_23: -1350185550245021685
+      Fantasy_Outside_C_24: 4593707422711183059
+      Fantasy_Outside_C_25: -3654387361317589358
+      Fantasy_Outside_C_26: 7502474419960307803
+      Fantasy_Outside_C_27: -257741793871156145
+      Fantasy_Outside_C_28: -6730504877167422687
+      Fantasy_Outside_C_29: -8278216200035342085
+      Fantasy_Outside_C_3: -6368866055957380089
+      Fantasy_Outside_C_30: 2503100082076923644
+      Fantasy_Outside_C_31: 2386045637961072484
+      Fantasy_Outside_C_32: -400925518608331282
+      Fantasy_Outside_C_33: -3769026021646939115
+      Fantasy_Outside_C_34: 1845447242373140763
+      Fantasy_Outside_C_35: 1557980641712329747
+      Fantasy_Outside_C_36: -3209927122372266262
+      Fantasy_Outside_C_37: 5218291113306902578
+      Fantasy_Outside_C_38: -398957953851888731
+      Fantasy_Outside_C_39: -3341248128537462730
+      Fantasy_Outside_C_4: -5154929976798154377
+      Fantasy_Outside_C_40: -8576765652587523147
+      Fantasy_Outside_C_41: -1866969815706741187
+      Fantasy_Outside_C_42: 2220503128000683050
+      Fantasy_Outside_C_43: -3848903348845663278
+      Fantasy_Outside_C_44: -881442353071653785
+      Fantasy_Outside_C_45: -5081256949115763214
+      Fantasy_Outside_C_46: 298865660408168799
+      Fantasy_Outside_C_47: -6853780155729755324
+      Fantasy_Outside_C_48: 259667102154165921
+      Fantasy_Outside_C_49: -2779817657959024147
+      Fantasy_Outside_C_5: -3760045685294129135
+      Fantasy_Outside_C_50: 2950624165976673587
+      Fantasy_Outside_C_51: 1203575518128377599
+      Fantasy_Outside_C_52: -7435655246378052042
+      Fantasy_Outside_C_53: 8171372369178265662
+      Fantasy_Outside_C_54: 466488137082691923
+      Fantasy_Outside_C_55: 1908217853755267266
+      Fantasy_Outside_C_56: 3385092710557708319
+      Fantasy_Outside_C_57: -5711753206127865294
+      Fantasy_Outside_C_58: 6298423438196967139
+      Fantasy_Outside_C_59: -409110593783580671
+      Fantasy_Outside_C_6: 4456372714700940938
+      Fantasy_Outside_C_60: -6580656113086624256
+      Fantasy_Outside_C_61: -5624098607354936323
+      Fantasy_Outside_C_62: -2013700806894494932
+      Fantasy_Outside_C_63: 5475735392400407175
+      Fantasy_Outside_C_64: -4082439448259780310
+      Fantasy_Outside_C_65: -6774045314764391473
+      Fantasy_Outside_C_66: 4301090123823203380
+      Fantasy_Outside_C_67: 5220467851681749634
+      Fantasy_Outside_C_68: 4716796237874470965
+      Fantasy_Outside_C_69: -6521127910688176060
+      Fantasy_Outside_C_7: 2419975474152550607
+      Fantasy_Outside_C_70: 1093292780260650045
+      Fantasy_Outside_C_71: -8574495107982363752
+      Fantasy_Outside_C_72: 1590840029897095507
+      Fantasy_Outside_C_73: 1234758800338237100
+      Fantasy_Outside_C_74: -3867206726110598483
+      Fantasy_Outside_C_75: 8671967260282424370
+      Fantasy_Outside_C_76: 6480210160283799724
+      Fantasy_Outside_C_77: -1308817227062717035
+      Fantasy_Outside_C_78: -1615771505156408861
+      Fantasy_Outside_C_79: 4623592711550998570
+      Fantasy_Outside_C_8: 8215863328261932569
+      Fantasy_Outside_C_80: -356772093284515011
+      Fantasy_Outside_C_81: -7528246898716555112
+      Fantasy_Outside_C_82: -5622154749112184218
+      Fantasy_Outside_C_83: 9154729454485270686
+      Fantasy_Outside_C_84: -1188568670214432528
+      Fantasy_Outside_C_85: -3654202771248312764
+      Fantasy_Outside_C_86: 3864509209884159853
+      Fantasy_Outside_C_87: -8232507582562727169
+      Fantasy_Outside_C_88: 6871668335798042812
+      Fantasy_Outside_C_89: -5466145872774866602
+      Fantasy_Outside_C_9: -7325680177209523734
+      Fantasy_Outside_C_90: 1715648450912700738
+      Fantasy_Outside_C_91: 3964027376048004058
+      Fantasy_Outside_C_92: 250620710921395551
+      Fantasy_Outside_C_93: -299024143108583510
+      Fantasy_Outside_C_94: -4146872623386503301
+      Fantasy_Outside_C_95: -2654092778028556022
+      Fantasy_Outside_C_96: 1633517225524267399
+      Fantasy_Outside_C_97: 7750746338773166265
+      Fantasy_Outside_C_98: -8621655489517782041
+      Fantasy_Outside_C_99: -8920116868078311636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

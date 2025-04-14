@@ -8,5 +8,5 @@ public class GetItemDialogueCanvas : DialogueCanvas
 
     }
 
-    // ¹º°¡ ¶ç¿öÁÖ´Â ÇÔ¼ö
+    // ë­”ê°€ ë„ì›Œì£¼ëŠ” í•¨ìˆ˜
 }

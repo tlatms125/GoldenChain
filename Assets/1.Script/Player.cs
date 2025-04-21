@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoSingleton<Player>
 {
-    public static Player Instance;
+    
     public Rigidbody2D rgby;
     [SerializeField] CharacterName  characterName;
     
-    void Awake()
-    {
-        Instance = this;
-    }
+   
     void Start()
     {
         rgby = GetComponent<Rigidbody2D>();

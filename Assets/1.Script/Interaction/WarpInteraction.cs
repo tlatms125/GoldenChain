@@ -12,7 +12,7 @@ public class WarpInteraction : Interaction
     {
             notReady =true;
     }
-    void OriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {

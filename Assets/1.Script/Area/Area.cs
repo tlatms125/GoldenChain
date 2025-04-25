@@ -5,7 +5,8 @@ public class Area : MonoBehaviour
     public string title;
     public void StartArea()
     {
-        //ÇöÀç Áö¿ªÀÇ Äİ¶óÀÌ´õ·Î º¯°æ
+        //í˜„ì¬ ì§€ì—­ì˜ ì½œë¼ì´ë”ë¡œ ë³€ê²½
+        Debug.Log($"Area StartArea(){title}");
         CameraMgr.Instance.ChangeBounding(this.GetComponent<PolygonCollider2D>());
     }
 }

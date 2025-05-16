@@ -20,6 +20,8 @@ public class Farm : MonoBehaviour
             return;
 
             target.Interact(null);
+            
+
 
         }
     }

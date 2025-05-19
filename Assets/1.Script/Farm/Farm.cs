@@ -12,22 +12,22 @@ public class Farm : MonoBehaviour
     private void Update()
     {
         //플레이어 해당밭안에 있는지 감지(선작업 해야하는 기능)
-        
-        if(Input.GetKeyDown(KeyCode.F))
-        {      
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
             target = FindField(Player.Instance.transform.position);
-            if(target == null)
+            if (target == null)
             {
                 Debug.Log("Farm_Update()_targetnull");
                 return;
             }
-            
+
 
             Debug.Log("Farm_Update()_");
             target.Interact(null);
-            
 
-            
+
+
 
 
         }
@@ -37,11 +37,11 @@ public class Farm : MonoBehaviour
         float minDistance = float.MaxValue;
         int idx = -1;
 
-        for(int i =0;i< farmingFields.Length; i++)
+        for (int i = 0; i < farmingFields.Length; i++)
         {
             float dis = Vector2.SqrMagnitude(pos - (Vector2)farmingFields[i].transform.position);
 
-            if(dis < minDistance)
+            if (dis < minDistance)
             {
                 idx = i;
                 minDistance = dis;
@@ -51,9 +51,24 @@ public class Farm : MonoBehaviour
         if (idx < 0)
             return null;
 
-        if(Vector2.Distance (farmingFields[idx].transform.position, Player.Instance.transform.position) > 1f)
-        return null;
+        if (Vector2.Distance(farmingFields[idx].transform.position, Player.Instance.transform.position) > 1f)
+            return null;
 
         return farmingFields[idx];
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            FarmCanvas.Instance.ActiveCanvas(true);
+        }
+    }
+    public void OiggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            FarmCanvas.Instance.ActiveCanvas(false);
+        } 
     }
 }

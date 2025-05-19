@@ -135,6 +135,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: Carrot
   curState: 0
+  curStateIdx: 0
+  growUptime: 0
+  timeLimit: 0
+  curField: {fileID: 0}
+  info: {fileID: 0}
+  wilt: 0
 --- !u!210 &7012315343545364048
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -143,7 +149,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9021884746982577266}
   m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1583402191
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_SortAtRoot: 0

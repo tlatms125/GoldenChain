@@ -6,6 +6,7 @@ public class PlantMgr : MonoSingleton<PlantMgr>
     [SerializeField] PlantInfo[] plantInfos;
     public override void Awake()
     {
+        Debug.Log("PlantMgr_Awake()");
         plantInfos = Resources.LoadAll<PlantInfo>("Plant");
     }
     

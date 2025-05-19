@@ -12,14 +12,21 @@ public class Farm : MonoBehaviour
     private void Update()
     {
         //플레이어 해당밭안에 있는지 감지(선작업 해야하는 기능)
-
+        
         if(Input.GetKeyDown(KeyCode.F))
         {      
             target = FindField(Player.Instance.transform.position);
             if(target == null)
-            return;
+            {
+                Debug.Log("Farm_Update()_targetnull");
+                return;
+            }
+            
 
+            Debug.Log("Farm_Update()_");
             target.Interact(null);
+            
+
             
 
 

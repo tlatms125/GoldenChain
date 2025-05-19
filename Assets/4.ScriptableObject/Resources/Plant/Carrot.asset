@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d040101e0303494bad65dd795e47251, type: 3}
-  m_Name: PlantInfo
+  m_Name: Carrot
   m_EditorClassIdentifier: 
   key: Carrot
   plantState: 000000000100000002000000
@@ -18,5 +18,15 @@ MonoBehaviour:
   - {fileID: 8414308366443468184, guid: 1fb65ed04f19e4b1eaf93e438de92ee2, type: 3}
   - {fileID: -207852729996037520, guid: 1fb65ed04f19e4b1eaf93e438de92ee2, type: 3}
   - {fileID: -7902466179081294484, guid: 1fb65ed04f19e4b1eaf93e438de92ee2, type: 3}
-  plantInteractionPrefab: {fileID: 0}
-  thum: {fileID: 0}
+  plantInteractionPrefab: {fileID: 1207578181695368632, guid: 5d6e34507f8a0874c926f977d3e63545, type: 3}
+  thum: {fileID: 1266763124, guid: 98863f400af964cbd96a2e54e4d51ae9, type: 3}
+  seedThum: {fileID: -680636250, guid: 98863f400af964cbd96a2e54e4d51ae9, type: 3}
+  cropName: carrot
+  cropCount: 1
+  timeForGrowth:
+  - 20
+  - 40
+  interactiveTimeLimit:
+  - 30
+  - 30
+  - 30

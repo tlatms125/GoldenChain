@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9185ed9f8a8342a428c0657d25e65b53, type: 3}
   m_Name: Seed_carrot
   m_EditorClassIdentifier: 
-  itemKey: Entrance
-  itemName: 
+  itemKey: Seed_carrot
+  itemName: carrot
   thumnail: {fileID: 125700997, guid: 98863f400af964cbd96a2e54e4d51ae9, type: 3}
-  maxCount: 0
+  itemCategory: 0
+  maxCount: 1
+  itemDescription: 

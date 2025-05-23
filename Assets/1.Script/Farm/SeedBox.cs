@@ -7,14 +7,14 @@ public class SeedBox : MonoBehaviour
     {
         if (collider2D.CompareTag("Player"))
         {
-            FarmCanvas.Instance.seedBoxUI.SetActive(true);
+            FarmCanvas.Instance.seedBoxUI.gameObject.SetActive(true);
         }
     }
     public void OnTriggerExit2D(Collider2D collider2D)
     {
         if (collider2D.CompareTag("Player"))
         {
-            FarmCanvas.Instance.seedBoxUI.SetActive(false);
+            FarmCanvas.Instance.seedBoxUI.gameObject.SetActive(false);
         }
     }
 

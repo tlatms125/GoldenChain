@@ -7,7 +7,7 @@ using UnityEngine;
 public class User : MonoSingleton<User>
 {
     public UserData userData;
-    ItemData[] itemDatas;
+    [SerializeField] ItemData[] itemDatas;
     public override void Awake()
     {
         base.Awake();
@@ -45,7 +45,7 @@ public class User : MonoSingleton<User>
     }
     public ItemData GetItemData(string key)
     {
-
+        Debug.Log("User / GetItemData " + key);
         for (int i = 0; i < itemDatas.Length; i++)
         {
             if (itemDatas[i].itemKey == key)

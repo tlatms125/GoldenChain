@@ -5,6 +5,7 @@ using TMPro;
 public class FarmCanvas : MonoSingleton<FarmCanvas>
 {
     public SeedBoxUI seedBoxUI;
+    public CurrentSeedPanel currentSeedPanel;
     
     //가지고 있는 씨앗보여주기
 
@@ -13,17 +14,17 @@ public class FarmCanvas : MonoSingleton<FarmCanvas>
         gameObject.SetActive(state);
         if (state)
         {
-            if(seedBoxUI ==null)
-               seedBoxUI = GetComponentInChildren<SeedBoxUI>();
+            if (seedBoxUI == null)
+                seedBoxUI = GetComponentInChildren<SeedBoxUI>();
 
             seedBoxUI.CreatePanel();
         }
     }
 
     // Update is called once per frame
-    void Update()
+    public void UpdateCanvas()
     {
-       
+       seedBoxUI.Pa
         
        
     }

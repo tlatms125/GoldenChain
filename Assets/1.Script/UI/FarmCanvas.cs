@@ -24,7 +24,9 @@ public class FarmCanvas : MonoSingleton<FarmCanvas>
     // Update is called once per frame
     public void UpdateCanvas()
     {
-        seedBoxUI.UpdatePanels();
+        if( seedBoxUI.gameObject.activeSelf )
+            seedBoxUI.UpdatePanels();
+
         currentSeedPanel.UpdateCurrentSeedPanel();
 
        

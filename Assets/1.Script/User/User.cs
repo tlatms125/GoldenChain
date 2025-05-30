@@ -12,6 +12,12 @@ public class User : MonoSingleton<User>
     {
         base.Awake();
         itemDatas = Resources.LoadAll<ItemData>("Item");
+
+        userData = SaveMgr.LoadData<UserData>("userData");
+        if (userData == null)
+        { 
+            userData = new UserData();
+        }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -65,24 +71,39 @@ public class User : MonoSingleton<User>
 public class UserData
 {
     public string userName;
-    public Dictionary<string, UserItemData> userItemDataDic = new Dictionary<string, UserItemData>();
+    //public Dictionary<string, UserItemData> userItemDataDic = new Dictionary<string, UserItemData>();
     public List<UserItemData> userItemDataList = new List<UserItemData>();
     public void SaveData()
     {
-        userItemDataList = userItemDataDic.Values.ToList();
+        // userItemDataList = userItemDataDic.Values.ToList();
+
 
     }
     public void AddItem(string itemKey, int value)
     {
-        if (!userItemDataDic.ContainsKey(itemKey))
-        {
-            userItemDataDic.Add(itemKey, new UserItemData(itemKey));
 
-        }
-        userItemDataDic[itemKey].count += value;
+        UserItemData userItemData = GetUserItemData(itemKey);
+        userItemData.count += value;
+        // if (!userItemDataDic.ContainsKey(itemKey))
+        // {
+        //     userItemDataDic.Add(itemKey, new UserItemData(itemKey));
+
+        // }
+        // userItemDataDic[itemKey].count += value;
 
 
     }
+    public UserItemData GetUserItemData(string itemKey)
+    {
+        for (int i = 0; i < userItemDataList.Count; i++)
+        {
+            return userItemDataList[i];
+        }
+        UserItemData userItemData = new UserItemData(itemKey);
+        userItemDataList.Add(userItemData);
+        return userItemData;
+    }
+
     
 
 }

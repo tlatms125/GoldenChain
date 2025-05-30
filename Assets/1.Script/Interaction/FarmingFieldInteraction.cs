@@ -39,6 +39,7 @@ public class FarmingFieldInteraction : MonoBehaviour, IInteractable
       plant.transform.position = transform.position;
       plant.StartPlant(this);
       //¾¾¾Ñ ¼Òºñ + À¯¾ÆÀÌ °»½Å
+      Debug.Log($"FarmigFieldInteraction/Interact/Seed_{info.key}");
       User.Instance.userData.AddItem($"Seed_{info.key}", -1);
       FarmCanvas.Instance.UpdateCanvas();
       

@@ -12,21 +12,42 @@ public class SeedBoxUI : MonoBehaviour
     // List<GameObject> seedBoxPanels = new List<GameObject>();
     public UserItemData[] userItemDatas;
     public List<SeedPanel> seedPanels = new List<SeedPanel>();
+   
 
     //아이템 갯수 만큼 패널을 생성하고 데이터에따라 섬네일 카운트 보여주기
     public void CreatePanel()
     {
-        userItemDatas = User.Instance.GetItems(ItemCategory.Seed);
+        for (int i = 0; i < seedPanels.Count; i++)
+        {
+            seedPanels[i].gameObject.SetActive(false);
+            
+        }
+        
+        
+            userItemDatas = User.Instance.GetItems(ItemCategory.Seed);
         for (int i = 0; i < userItemDatas.Length; i++)
         {
-            SeedPanel seedPanel = Instantiate(seedBoxPanelPrefab, parentTr);
+            SeedPanel seedPanel = GetFromSeedPanelPooling();
             seedPanel.SetPanel(userItemDatas[i]);
-            seedPanels.Add(seedPanel);
-
+           
+            //오브젝트풀링
         }
 
     }
 
+    public SeedPanel GetFromSeedPanelPooling()
+    {
+        for (int i = 0; i < seedPanels.Count; i++)
+        {
+            if (!seedPanels[i].gameObject.activeSelf)
+            {
+                return seedPanels[i];
+            }
+        }
+        SeedPanel seedPanel = Instantiate(seedBoxPanelPrefab, parentTr);
+        seedPanels.Add(seedPanel);
+        return seedPanel;
+    }
 
     public void UpdatePanels()
     {

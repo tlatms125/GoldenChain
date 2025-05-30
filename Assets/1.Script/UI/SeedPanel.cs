@@ -1,7 +1,8 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.U2D.ScriptablePacker;
+
 
 public class SeedPanel : MonoBehaviour
 {
@@ -33,5 +34,6 @@ public class SeedPanel : MonoBehaviour
     public void OnClickedButton()
     {
         FarmCanvas.Instance.currentSeedPanel.SetSeedPanel(userItemData);
+        FarmCanvas.Instance.seedBoxUI.gameObject.SetActive(false);
     }
 }

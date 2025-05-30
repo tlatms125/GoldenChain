@@ -23,6 +23,12 @@ public class SeedPanel : MonoBehaviour
         countText.text = userItemData.count.ToString();
         thum.sprite = Resources.Load<ItemData>("Item/" + userItemData.key).thumnail;
     }
+    public void UpdatePanel()
+    { 
+        key = userItemData.key;
+        countText.text = userItemData.count.ToString();
+
+    }
 
     public void OnClickedButton()
     {

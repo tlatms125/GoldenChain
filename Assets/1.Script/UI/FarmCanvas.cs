@@ -7,7 +7,7 @@ public class FarmCanvas : MonoSingleton<FarmCanvas>
     public SeedBoxUI seedBoxUI;
     public CurrentSeedPanel currentSeedPanel;
     
-    //°¡Áö°í ÀÖ´Â ¾¾¾Ñº¸¿©ÁÖ±â
+    //ê°€ì§€ê³  ìžˆëŠ” ì”¨ì•—ë³´ì—¬ì£¼ê¸°
 
     public void ActiveCanvas(bool state)
     {
@@ -24,8 +24,9 @@ public class FarmCanvas : MonoSingleton<FarmCanvas>
     // Update is called once per frame
     public void UpdateCanvas()
     {
-       seedBoxUI.Pa
-        
+        seedBoxUI.UpdatePanels();
+        currentSeedPanel.UpdateCurrentSeedPanel();
+
        
     }
 

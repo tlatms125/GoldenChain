@@ -40,7 +40,7 @@ public class FarmingFieldInteraction : MonoBehaviour, IInteractable
       plant.StartPlant(this);
       //¾¾¾Ñ ¼Òºñ + À¯¾ÆÀÌ °»½Å
       User.Instance.userData.AddItem($"Seed_{info.key}", -1);
-      //FarmCanvas.Instance.GetComponentInChildren<>
+      FarmCanvas.Instance.UpdateCanvas();
       
       }
      

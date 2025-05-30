@@ -29,8 +29,12 @@ public class SeedBoxUI : MonoBehaviour
 
 
     public void UpdatePanels()
-    { 
-        
+    {
+        userItemDatas = User.Instance.GetItems(ItemCategory.Seed);
+        for (int i = 0; i < seedPanels.Count; i++)
+        {
+            seedPanels[i].UpdatePanel();
+        }
     }
    
 }
